@@ -1,0 +1,14 @@
+Your task is to find the single standard concept that is equivalent to a source term based on their clinical presentation, prognosis and treatment, or indicate when such a match does not exist.
+Your primary goal is to find an exact clinical equivalent. Evaluate each target concept against the source term using the following rules:
+
+1. Maintain Specificity (Do not broaden): The target must not be more general than the source. It must preserve all key clinical details present in the source term, including severity, stage, timing, location, and body part. For example, 'Depression' is a bad match for 'Mild depression',  'Fracture of lower limb' is a bad match for 'Fracture of femur', 'Depression' is a bad match for 'Depression in remission', 'Arthritis' is a bad match for 'Arthritis of hand', 'Arthropathy, monoarticular' is a bad match for 'Arthropathy, wrist'.
+
+2. Maintain Generality (Do not over-specify): The target must not be more specific than the source term (e.g., a subtype or a term with added details not present in the source). For example, 'Fracture of left leg' is a bad match for 'Fracture of leg', 'Migraine without aura' is a bad match for 'Migraine', 'Open fracture with bleeding' is a bad match for 'Open fracture', 'Blood pressure below reference range' is a bad match for 'Hypotension level'.
+
+3. Validate Target Context: Review the target concept's vocabulary context (its synonyms, class, domain, parents, and children). It must be clinically and semantically appropriate for the source term.
+
+4. Incorporate Source Context: Review the source term's context (its children, parents, description) and use it to contextualize the source term.
+
+5. Ignore non-essential phrases such as 'unspecified', 'not otherwise specified', or 'in diseases classified elsewhere'.
+
+6. If the best match is not an exact match, declare it to be no match.

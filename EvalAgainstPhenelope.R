@@ -2,13 +2,13 @@ library(dplyr)
 library(httr2)
 library(jsonlite)
 
-cacheFolder <- "cachePhenelope"
+cacheFolder <- "cachePhenelopeLocal"
 dir.create(cacheFolder)
-useLocal <- FALSE
+useLocal <- TRUE
 
 rules <- paste(readLines("RulesPhenelope.txt"), collapse = "\n")
 
-# group = groups[[1]]
+# group = groups[[3]]
 findMatch <- function(group) {
   cacheFileName <- file.path(cacheFolder, sprintf("%s.rds", gsub("[^[:alnum:]]", "_", group$targetName[1])))
   if (file.exists(cacheFileName)) {
@@ -43,7 +43,8 @@ findMatch <- function(group) {
       questions = questionsList
     )
     if (useLocal) {
-      req <- request("http://localhost:8100/v1/systemone") |>
+      payload$model <- "clef:27b"
+      req <- request("http://localhost:11434/v1/systemone") |>
         req_headers("Content-Type" = "application/json") |>
         req_body_json(payload, auto_unbox = TRUE)
     } else {
@@ -53,14 +54,8 @@ findMatch <- function(group) {
         req_auth_bearer_token(Sys.getenv("TYPESAFE_KEY")) |>
         req_body_json(payload, auto_unbox = TRUE)
     }
-
     resp <- req_perform(req)
     parsed <- resp_body_json(resp)
-    if ("warnings" %in% names(parsed)) {
-      warnings <- paste(unlist(parsed$warnings), collapse = ";")
-    } else {
-      warnings <- ""
-    }
 
     answerToRow <- function(key, answers) {
       row <- answersList[[key]] |>
@@ -69,8 +64,7 @@ findMatch <- function(group) {
     }
     rows <- lapply(names(parsed$answers), answerToRow, answers = parsed$answers)
     rows <- bind_rows(rows) |>
-      mutate(targetName = group$targetName[1],
-             warnings = warnings)
+      mutate(targetName = group$targetName[1])
     saveRDS(rows, cacheFileName)
     return(rows)
   }
@@ -133,7 +127,7 @@ plotCalibration <- function(joined) {
 }
 
 plotCalibration(jebVsGs)
-ggsave("CalibrationPhenelope.png", width = 5, height = 4)
+ggsave("CalibrationPhenelopeClef27b.png", width = 5, height = 4)
 
 # Plot AUC -------
 roc_obj <- pROC::roc(jebVsGs$goldStandard, jebVsGs$probability)
@@ -179,3 +173,7 @@ jebVsGs |>
   group_by(range) |>
   summarise(p = mean(goldStandard),
             fraction = n() / nrow(jebVsGs))
+# range       p fraction
+# Maybe 0.397     0.306 
+# No    0.00365   0.632 
+# Yes   1         0.0615

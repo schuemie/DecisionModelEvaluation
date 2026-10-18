@@ -31,13 +31,13 @@ D6) For the domain of PROCEDURES, if an action word is ambiguous, use a narrow s
     "Excision of bilateral breasts" would NOT be included with "Bilateral mastectomy of female breast", in this case assuming excision means "complete excision" < 95% of the time
 
 ## Answering rules
-S1) If the vast majority (> 95%) of instances of the proposed concept(s) make it a part of the concept set, the answer is KEEP.
+S1) If the vast majority (> 95%) of instances of the proposed concept(s) make it a part of the concept set, the answer is TRUE.
 Positive Example:  a proposed concept of "Photochemotherapy" nearly ALWAYS involves chemo AND photo therapy, so it should be included in a specific concept of "phototherapy procedure" even though it also includes chemical therapy.
 Negative Example:  a proposed concept of "Procedure on skin" DOES NOT specify phototherapy although most phototherapy involves the skin (phototherapy is NOT specified and should NOT be assumed) AND the vast majority of "Procedure on skin" ARE NOT phototherapy, so it should NOT be included in a specific concept of "phototherapy procedure".
-S2) If proposed concept(s) is ALWAYS a synonym of the concept set target, the answer is KEEP.
-S3) If proposed concept(s) is ALWAYS a subtype of the concept set target, the answer is KEEP.
+S2) If proposed concept(s) is ALWAYS a synonym of the concept set target, the answer is TRUE.
+S3) If proposed concept(s) is ALWAYS a subtype of the concept set target, the answer is TRUE.
 Example:   a proposed concept of "Photodynamic therapy of skin" ALWAYS involves photo therapy, albeit a special form of it, so it should be included in a specific concept of "phototherapy procedure" even though it is a special form (using drugs in addition to light).
-S4) If proposed concept(s) is not a part of the specific concept set target, the answer is REMOVE.
+S4) If proposed concept(s) is not a part of the specific concept set target, the answer is FALSE.
 S5) If specific concept(s) has an OR clause, the proposed concept should be included if it is correct for EITHER of the parts of the specific condition.
 Example: For the specific concept "leukocytosis or neutrophilia condition", include any proposed concept that is correct for leukocytosis OR neutrophilia.
 S6) If specific concept(s) has an AND clause, the proposed concept should be included if it is correct for EITHER of the parts of the specific condition.

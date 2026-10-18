@@ -4,7 +4,9 @@ library(dplyr)
 
 termToCandidates <- readr::read_csv("exact_matching_vector_search_context.csv", show_col_types = FALSE) |>
   SqlRender::snakeCaseToCamelCaseNames()
-instructions <- paste(readLines("InstructionsAriadneShort.txt"), collapse = "\n")
+# instructions <- paste(readLines("InstructionsAriadneShort.txt"), collapse = "\n")
+instructions <- paste(readLines("InstructionsAriadne.txt"), collapse = "\n")
+
 useLocal <- FALSE
 
 if (useLocal) {
@@ -15,20 +17,20 @@ if (useLocal) {
 dir.create(cacheFolder)
 
 # group = groups[[20]]
-group <- termToCandidates |>
-  filter(sourceCode == 45422256)
+# group <- termToCandidates |>
+#   filter(sourceCode == 45422256)
 findMatch <- function(group) {
   cacheFileName <- file.path(cacheFolder, sprintf("%s.rds", group$sourceCode[1]))
   if (file.exists(cacheFileName)) {
-    row <- readRDS(cacheFileName)
-    return(row)
+    rows <- readRDS(cacheFileName)
+    return(rows)
   } else {
-
+    
     message(sprintf("Processing '%s'", group$sourceTerm[1]))
     contextState <- sprintf("Source term: %s", group$cleanedTerm[1])
-
+    
     optionsList <- list()
-    answersList <- list()
+    rows <- list()
     for (i in seq_len(nrow(group))) {
       key <- paste0("candidate_", i)
       if (useLocal) {
@@ -50,13 +52,16 @@ findMatch <- function(group) {
                          group$matchedVocabularyId[i])
       }
       optionsList[[key]] <- value
-      answersList[[key]] <- tibble(mappedConceptId = group$matchedConceptId[i],
-                                   mappedConceptName = group$matchedConceptName[i])
+      rows[[i]] <- tibble(key = key, 
+                          mappedConceptId = group$matchedConceptId[i],
+                          mappedConceptName = group$matchedConceptName[i])
     }
     optionsList[["none"]] <- "None of the provided candidates are an exact match."
-    answersList[["none"]] <- tibble(mappedConceptId = -1,
-                                    mappedConceptName = "None")
-
+    rows[[length(rows) + 1]] <- tibble(key = "none",
+                                       mappedConceptId = -1,
+                                       mappedConceptName = "None")
+    rows <- bind_rows(rows)
+    
     payload <- list(
       state = contextState,
       questions = list(
@@ -78,7 +83,7 @@ findMatch <- function(group) {
         req_auth_bearer_token(Sys.getenv("TYPESAFE_KEY")) |>
         req_body_json(payload, auto_unbox = TRUE)
     }
-
+    
     resp <- req_perform(req)
     parsed <- resp_body_json(resp)
     if ("warnings" %in% names(parsed)) {
@@ -86,14 +91,17 @@ findMatch <- function(group) {
     } else {
       warnings <- ""
     }
-
-    answer <- parsed$answers$best_match
-    row <- answersList[[answer$choice]] |>
-      mutate(confidence = answer$confidence,
+    
+    rows <- rows |>
+      inner_join(tibble(key = names(parsed$answers$best_match$probabilities),
+                        probability = unlist(parsed$answers$best_match$probabilities)),
+                 by = join_by(key)) |>
+      mutate(choice = key ==  parsed$answers$best_match$choice,
              warnings = warnings,
              sourceCode = group$sourceCode[1],
-             sourceTerm = group$sourceTerm[1])
-    saveRDS(row, cacheFileName)
+             sourceTerm = group$sourceTerm[1],
+             cleanedTerm = group$cleanedTerm[1]) 
+    saveRDS(rows, cacheFileName)
     return(row)
   }
 }
@@ -105,33 +113,62 @@ rows <- lapply(groups, findMatch)
 # rows <- lapply(list.files(cacheFolder, full.names = TRUE), readRDS)
 rows <- bind_rows(rows)
 
+if ("probility" %in% names(rows)) {
+  rows <- rows |> rename(probability = "probility")
+}
+
 gs <- termToCandidates |>
   distinct(sourceCode,
            targetConceptId,
            targetConceptName,
            predicate,
            targetConceptIdB,
+           targetConceptNameB,
            predicateB) |>
   mutate(targetConceptId = if_else(predicate == "broadMatch", -1, targetConceptId),
          targetConceptIdB = if_else(predicateB == "broadMatch", -1, targetConceptIdB))
-jebVsGs <- rows |>
-  inner_join(gs, by = join_by(sourceCode)) |>
+
+jevVsGs <- rows |>
+  inner_join(gs |>
+               select(sourceCode, targetConceptId, targetConceptIdB),
+             by = join_by(sourceCode)) |>
   mutate(correct = (targetConceptId == mappedConceptId) | (!is.na(targetConceptIdB) & targetConceptIdB == mappedConceptId))
-jebVsGs |>
+
+jevChoicesVsGs <- jevVsGs |>
+  filter(choice) 
+
+jevChoicesVsGs |>
+  filter(choice) |>
   summarise(accuracy = mean(correct))
 # Jev accuracy (vs gold standard)
-# Local: 0.804
-# TypeSafe: 0.791
-jebVsGs |>
-  summarise(fractionConfident = mean(confidence > 0.95))
+# 0.817
+
+hist(jevVsGs$probability)
+jevVsGs |>
+  mutate(range = case_when(probability < 0.1 ~ "No",
+                           probability > 0.9 ~ "Yes",
+                           TRUE ~ "Maybe")) |>
+  group_by(range) |>
+  summarise(p = mean(correct),
+            fraction = n() / nrow(jevVsGs))
+# range       p fraction
+# Maybe 0.469     0.0542
+# No    0.00232   0.932 
+# Yes   0.947     0.0141
+jevVsGs |>
+  group_by(sourceCode) |>
+  summarise(total = sum(probability)) |>
+  summarise(min(total))
+
+jevChoicesVsGs |>
+  summarise(fractionConfident = mean(probility > 0.95))
 # Fraction p > 0.95
-# Local: 0.0978
-# TypeSafe: 0.257
-jebVsGs |>
-  filter(confidence > 0.95) |>
+# 0.274
+jevChoicesVsGs |>
+  filter(probility > 0.95) |>
   summarise(accuracy = mean(correct))
 # Accuracy in subset having p > 0.95
-# TypeSafe: 0.958
+# 0.952
 
 fullLlm <- readr::read_csv("exact_matching_llm_mapped_terms.csv", show_col_types = FALSE) |>
   SqlRender::snakeCaseToCamelCaseNames()
@@ -142,6 +179,10 @@ fullLlm |>
   summarise(accuracy = mean(correct))
 # o3 accuracy (against gold standard)
 # 0.851
+
+
+
+
 fullLlm |>
   inner_join(rows |>
                filter(confidence > 0.95) |>
@@ -165,15 +206,15 @@ library(ggplot2)
 plotCalibration <- function(joined) {
   calibration_data <- joined %>%
     mutate(correct_num = as.numeric(correct)) %>%
-    mutate(bin = cut(confidence, breaks = seq(0, 1, by = 0.1), include.lowest = TRUE)) %>%
+    mutate(bin = cut(probability, breaks = seq(0, 1, by = 0.1), include.lowest = TRUE)) %>%
     group_by(bin) %>%
     summarize(
-      mean_predicted = mean(confidence, na.rm = TRUE),
+      mean_predicted = mean(probability, na.rm = TRUE),
       observed_accuracy = mean(correct_num, na.rm = TRUE),
       sample_size = n(),
       .groups = "drop"
     )
-
+  
   ggplot(calibration_data, aes(x = mean_predicted, y = observed_accuracy)) +
     geom_abline(intercept = 0, slope = 1, linetype = "dashed", color = "darkgray") +
     geom_line(color = "#2c3e50", size = 1) +
@@ -190,12 +231,12 @@ plotCalibration <- function(joined) {
     theme_minimal()
 }
 
-plotCalibration(jebVsGs)
-ggsave("CalibrationJebVsGsTypeSafe.png", width = 5, height = 5)
-plotCalibration(filter(jebVsGs, warnings == ""))
+plotCalibration(jevVsGs)
+ggsave("CalibrationAriadneItemLevel.png", width = 5, height = 4)
 
-plotCalibration(jebVsFullLlm)
-plotCalibration(filter(jebVsFullLlm, warnings == ""))
+plotCalibration(jevChoicesVsGs)
+ggsave("CalibrationAriadneChoiceLevel.png", width = 5, height = 4)
+
 
 hist(jebVsGs$confidence)
 # row <- findMatch(groups[[200]])
