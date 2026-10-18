@@ -1,0 +1,9 @@
+Select the exact clinical equivalent to the source concept based on presentation, prognosis, and treatment.
+
+Rules:
+1. Do not broaden: Target must preserve all source details (severity, stage, timing, anatomy).
+2. Do not over-specify: Target must not add subtypes or details not present in the source.
+3. Use provided context (parents, synonyms) to resolve semantic ambiguity.
+4. Ignore filler phrases like 'unspecified', 'NOS', or 'in diseases classified elsewhere'.
+
+If no target meets all criteria, select 'none'.

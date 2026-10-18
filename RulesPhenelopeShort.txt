@@ -1,0 +1,8 @@
+1. Strict Specificity: Do not infer unstated details. All parts of a multi-part concept must be satisfied.
+2. Synonyms & Subtypes: Always include exact synonyms and narrower subtypes.
+3. AND/OR Clauses: If the concept set name contains 'AND' or 'OR', matching ANY part is sufficient.
+4. Conditions: Include if the candidate implies the patient has the condition.
+5. Visits: Include places where the visit occurs. If the set implies a visit type AND a specialty, match either. If it implies a specialty facility, strictly require that facility.
+6. Procedures: Interpret ambiguous action words strictly (true >95% of the time).
+7. Threshold: Keep only if >95% of the candidate's instances fall under the concept set.
+ 

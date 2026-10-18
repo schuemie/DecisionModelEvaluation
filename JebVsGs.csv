@@ -1,0 +1,461 @@
+mappedConceptId,mappedConceptName,confidence,warnings,latency,sourceCode,sourceTerm,targetConceptId,targetConceptName,predicate,targetConceptIdB,predicateB,correct
+37162983,Disorder following induced termination of pregnancy,0.427331,best_match: the state was cut to 2048 prompt tokens,12757.5,45587269,(Induced) termination of pregnancy with other complications,37162983,Disorder following induced termination of pregnancy,exactMatch,NA,NA,TRUE
+37162983,Disorder following induced termination of pregnancy,0.427331,best_match: the state was cut to 2048 prompt tokens,13568.3,45539079,(Induced) termination of pregnancy with unspecified complications,37162983,Disorder following induced termination of pregnancy,exactMatch,NA,NA,TRUE
+314379,First degree atrioventricular block,0.929608,,12709.8,35226391,AV block first degree,314379,First degree atrioventricular block,exactMatch,NA,NA,TRUE
+4065770,Cerebrospinal fluid examination abnormal,0.812332,best_match: the state was cut to 2048 prompt tokens,16757.5,37604135,Abnormal findings in cerebrospinal fluid,4065770,Cerebrospinal fluid examination abnormal,exactMatch,NA,NA,TRUE
+4065770,Cerebrospinal fluid examination abnormal,0.836381,best_match: the state was cut to 2048 prompt tokens,15886.9,37094135,"Abnormal findings in cerebrospinal fluid, Abnormal histological findings",4172064,Abnormal histological findings in CSF,exactMatch,NA,NA,FALSE
+4171911,Abnormal microbiological finding in specimen from male genital organ,0.941767,,11840.7,42497161,Abnormal microbiological findings in specimens from male genital organs,4171911,Abnormal microbiological finding in specimen from male genital organ,exactMatch,NA,NA,TRUE
+438878,Liver function tests outside reference range,0.835599,,13472.2,37604162,Abnormal results of liver function studies,438878,Liver function tests outside reference range,exactMatch,NA,NA,TRUE
+443263,Obstetric abscess of breast,0.838656,,11544.2,45568000,"Abscess of breast associated with pregnancy, unspecified trimester",443263,Obstetric breast abscess,exactMatch,80796,exactMatch,TRUE
+-1,None,0.696078,,13354.9,45572532,"Abscess of bursa, right ankle and foot",-1,Abscess of bursa,broadMatch,NA,NA,TRUE
+439456,Accident caused by power transmission machinery,0.933758,,9655.2,44821454,Accidents caused by transmission machinery,439456,Accident caused by power transmission machinery,exactMatch,NA,NA,TRUE
+4004094,Excoriated acne,0.962362,,11400.4,37613645,Acn� excori�e,4004094,Excoriated acne,exactMatch,NA,NA,TRUE
+36716836,Bilateral acquired absence of breast,0.622709,,11378.1,45571402,Acquired absence of bilateral breasts and nipples,36716836,Bilateral acquired absence of breast,exactMatch,NA,NA,TRUE
+-1,None,0.623073,,12342.2,45600371,Acquired absence of left ankle,37174088,Disarticulation of left ankle,exactMatch,NA,NA,FALSE
+-1,None,0.44303,,10540.7,45609993,Acquired absence of left breast and nipple,-1,Acquired total absence of breast,broadMatch,NA,NA,TRUE
+-1,None,0.41011,,12645.7,35209145,Acquired deformity of chest and rib,40487194,Acquired deformity of chest wall,exactMatch,NA,NA,FALSE
+375736,"Trachoma, active stage",0.952357,best_match: the state was cut to 2048 prompt tokens,19960.7,37609802,Active stage of trachoma,375736,"Trachoma, active stage",exactMatch,NA,NA,TRUE
+4143871,Erosion of stomach with hemorrhage,0.658947,best_match: the state was cut to 2048 prompt tokens,17251,42489523,Acute erosion of stomach with haemorrhage,4143871,Erosion of stomach with hemorrhage,exactMatch,-1,broadMatch,TRUE
+46270037,Hepatic coma due to acute hepatitis C,0.960148,,12223.6,45605221,Acute hepatitis C with hepatic coma,46270037,Hepatic coma due to acute hepatitis C,exactMatch,NA,NA,TRUE
+40480602,Acute on chronic systolic heart failure,0.48065600000000003,,13399.3,45567180,Acute on chronic systolic (congestive) heart failure,40480602,Acute on chronic systolic heart failure,exactMatch,NA,NA,TRUE
+-1,None,0.6939,,12588.7,37604869,"Acute onset vascular dementia with other, mainly hallucinatory symptoms, severe",-1,Vascular dementia of acute onset,broadMatch,NA,NA,TRUE
+4233424,Acute right-sided heart failure,0.907409,,14992.4,1326602,Acute right heart failure,4233424,Acute right-sided heart failure,exactMatch,NA,NA,TRUE
+-1,None,0.725601,,16422.1,37090164,"Adult osteomalacia, unspecified, upper arm",-1,Disorder of upper arm,broadMatch,NA,NA,TRUE
+4099883,Aminoglycosides adverse reaction,0.944334,,16355.2,37607584,Adverse effects in the therapeutic use of aminoglycosides,4099883,Aminoglycosides adverse reaction,exactMatch,NA,NA,TRUE
+443602,Adverse reaction to antiparkinsonism drug,0.963746,,18817.7,37604386,Adverse effects in the therapeutic use of antiparkinsonism drugs,443602,Adverse reaction to antiparkinsonism drug,exactMatch,NA,NA,TRUE
+4303811,Mineralocorticoid adverse reaction,0.921709,,18154.6,1433619,Adverse effects in the therapeutic use of mineralocorticoids,4303811,Mineralocorticoid adverse reaction,exactMatch,NA,NA,TRUE
+4162153,Thyroxine adverse reaction,0.830701,,24473.8,45471238,Adverse reaction to thyroxine sodium,4162153,Thyroxine adverse reaction,exactMatch,NA,NA,TRUE
+37164773,Psychosis caused by ethanol,0.568015,,41414.5,1568098,Alcohol abuse with alcohol-induced psychotic disorder,-1,Psychosis caused by ethanol,broadMatch,NA,NA,FALSE
+-1,None,0.656434,,30444.8,45591082,Alcohol dependence with intoxication,-1,Alcohol dependence,broadMatch,NA,NA,TRUE
+377830,Alcohol withdrawal delirium,0.934756,,23543.5,725278,"Alcohol use, unspecified with withdrawal delirium",377830,Alcohol withdrawal delirium,exactMatch,NA,NA,TRUE
+42539474,Complex regional pain syndrome of lower limb,0.6789,,21359.9,45596803,"Algoneurodystrophy, unspecified thigh",-1,Complex regional pain syndrome of lower limb,broadMatch,NA,NA,FALSE
+4064029,Allergic contact dermatitis caused by dye,0.915737,,18678.5,42490152,Allergic contact dermatitis due to dyes,4064029,Allergic contact dermatitis caused by dye,exactMatch,NA,NA,TRUE
+4101602,Immunoglobulin A vasculitis,0.306961,best_match: the state was cut to 2048 prompt tokens,22151.7,42483611,Allergic purpura,4101602,Immunoglobulin A vasculitis,exactMatch,NA,NA,TRUE
+-1,None,0.40133,,18656.1,37607287,Alveolar and parietoalveolar conditions,-1,Disorder of lung,broadMatch,NA,NA,TRUE
+36712678,Amnestic disorder associated with general medical condition,0.868291,,18318.5,35207115,Amnestic disorder due to known physiological condition,36712678,Amnestic disorder associated with general medical condition,exactMatch,NA,NA,TRUE
+437247,Anemia of chronic disease,0.891156,best_match: the state was cut to 2048 prompt tokens,23333.4,42485777,Anaemia in other chronic diseases classified elsewhere,437247,Anemia of chronic disease,exactMatch,NA,NA,TRUE
+-1,None,0.757162,,14835.6,1102702,"Anal fistula, complex",-1,Anal fistula,broadMatch,NA,NA,TRUE
+37163629,Anaphylaxis caused by component of vaccine product,0.823493,best_match: the state was cut to 2048 prompt tokens,26930.5,44829488,Anaphylactic reaction due to vaccination,37163629,Anaphylaxis caused by component of vaccine product,exactMatch,NA,NA,TRUE
+-1,None,0.444891,best_match: the state was cut to 2048 prompt tokens,22071.8,1102901,Angioimmunoblastic T-cell lymphoma not having achieved remission,4184976,Angioimmunoblastic T-cell lymphoma,exactMatch,-1,broadMatch,TRUE
+-1,None,0.717002,best_match: the state was cut to 2048 prompt tokens,20968.9,1102902,"Angioimmunoblastic T-cell lymphoma, in remission",-1,Hodgkin's disease in remission,broadMatch,NA,NA,TRUE
+-1,None,0.619329,,13679.5,1102721,"Anorectal fistula, simple, recurrent",-1,Anorectal fistula,broadMatch,NA,NA,TRUE
+-1,None,0.713093,best_match: the state was cut to 2048 prompt tokens,16768,37223903,"Anterior spinal and vertebral artery compression syndromes, multiple sites in spine",-1,Anterior spinal artery compression syndrome,broadMatch,NA,NA,TRUE
+-1,None,0.521084,best_match: the state was cut to 2048 prompt tokens,16556.8,45586422,"Anterior subcapsular polar infantile and juvenile cataract, unspecified eye",372315,Anterior subcapsular polar cataract,exactMatch,NA,NA,FALSE
+36713112,Pancytopenia due to antineoplastic chemotherapy,0.951895,,16632.7,45591012,Antineoplastic chemotherapy induced pancytopenia,36713112,Pancytopenia due to antineoplastic chemotherapy,exactMatch,NA,NA,TRUE
+46272492,Dissection of artery,0.927723,,16366.9,37622382,Artery dissection,46272492,Dissection of artery,exactMatch,NA,NA,TRUE
+4141757,Lyme arthritis,0.957849,,15143.3,45600433,Arthritis due to Lyme disease,4141757,Lyme arthritis,exactMatch,NA,NA,TRUE
+78829,Pyogenic arthritis of the ankle and/or foot,0.431297,,14651.6,1569915,"Arthritis due to other bacteria, ankle and foot",40481620,Infective arthritis of ankle and/or foot,exactMatch,NA,NA,FALSE
+4167984,Bacterial arthritis,0.763073,,16001.2,45606032,"Arthritis due to other bacteria, unspecified joint",4167984,Bacterial arthritis,exactMatch,NA,NA,TRUE
+-1,None,0.797688,,15830.6,42490575,"Arthritis in other bacterial diseases classified elsewhere, forearm",-1,Disorder of forearm,broadMatch,NA,NA,TRUE
+4094283,Lower limb joint arthritis,0.412126,,18021,42490600,"Arthritis in other viral diseases classified elsewhere, lower leg",-1,Lower limb joint arthritis,broadMatch,NA,NA,FALSE
+4054796,Assault with body part,0.75597,,10445.3,45537491,"Assault by other bodily force, subsequent encounter",4054796,Assault with body part,exactMatch,NA,NA,TRUE
+4055543,Assault with baseball bat,0.959273,,12391.4,45609808,"Assault by strike by baseball bat, sequela",-1,Late effects of assault,broadMatch,NA,NA,FALSE
+439448,Assault by drowning,0.951074,,15383.6,44830712,Assault by submersion [drowning],439448,Assault by drowning,exactMatch,NA,NA,TRUE
+198715,Premature menopause,0.428994,,13567.1,45581363,Asymptomatic premature menopause,198715,Premature menopause,exactMatch,-1,broadMatch,TRUE
+-1,None,0.550272,best_match: the state was cut to 2048 prompt tokens,21190.8,45567215,Atherosclerosis of autologous vein bypass graft(s) of the right leg with ulceration of thigh,-1,Atherosclerosis of autologous vein bypass graft of limb,broadMatch,NA,NA,TRUE
+-1,None,0.325035,,14451,37604557,Attention to artificial openings,1242753,Attention to stoma,exactMatch,NA,NA,FALSE
+4100822,Cobalamin deficiency,0.911514,,21058.9,45422256,B12 defic. initial assessment,4063247,B12 deficiency initial assessment,exactMatch,NA,NA,FALSE
+4100822,Cobalamin deficiency,0.911514,,18899.8,45445431,B12 defic.follow-up assessment,4063248,B12 deficiency follow-up assessment,exactMatch,NA,NA,FALSE
+4297668,Basal cell carcinoma of truncal skin,0.658658,,18656.5,45561802,Basal cell carcinoma of skin of other part of trunk,4297668,Basal cell carcinoma of truncal skin,exactMatch,NA,NA,TRUE
+4112852,Benign lipomatous tumor,0.767709,best_match: the state was cut to 2048 prompt tokens,23081.9,37606067,Benign lipomatous neoplasm,4112852,Benign lipomatous tumor,exactMatch,NA,NA,TRUE
+196654,Lipoma of intra-abdominal organs,0.903638,,21166.1,35206545,Benign lipomatous neoplasm of intra-abdominal organs,196654,Lipoma of intra-abdominal organs,exactMatch,NA,NA,TRUE
+433167,Lipoma of intrathoracic organs,0.895802,best_match: the state was cut to 2048 prompt tokens,21089.2,35206544,Benign lipomatous neoplasm of intrathoracic organs,433167,Lipoma of intrathoracic organs,exactMatch,NA,NA,TRUE
+137813,Benign neoplasm of mouth region,0.62691,best_match: the state was cut to 2048 prompt tokens,25065.6,1407242,Benign neoplasm: Other and unspecified parts of mouth,137813,Benign neoplasm of mouth region,exactMatch,NA,NA,TRUE
+4242957,Benign neoplasm of skin of eyelid,0.819889,best_match: the state was cut to 2048 prompt tokens,18393.5,45600585,"Benign neoplasm: Skin of eyelid, including canthus",4242957,Benign neoplasm of skin of eyelid,exactMatch,NA,NA,TRUE
+-1,None,0.492559,best_match: the state was cut to 2048 prompt tokens,18253.7,1434052,Blood alcohol level of less than 20 mg/100 ml,-1,High alcohol level in blood,broadMatch,NA,NA,TRUE
+443590,Infection caused by Brucella melitensis,0.94972,best_match: the state was cut to 2048 prompt tokens,27624.3,42483830,Brucellosis due to Brucella melitensis,443590,Infection caused by Brucella melitensis,exactMatch,NA,NA,TRUE
+-1,None,0.598427,,14285,1102660,"Bulimia nervosa, mild",-1,Bulimia nervosa,broadMatch,NA,NA,TRUE
+-1,None,0.403184,,16260.1,1427259,Cardiac murmurs and other cardiac sounds,-1,Finding of heart sounds,broadMatch,NA,NA,TRUE
+760925,Bilateral carpal tunnel syndrome,0.951216,best_match: the state was cut to 2048 prompt tokens,21946,37200332,"Carpal tunnel syndrome, bilateral upper limbs",760925,Bilateral carpal tunnel syndrome,exactMatch,NA,NA,TRUE
+4280828,Carrier of infectious organism,0.535672,,11986.2,1434357,Carrier of other specified bacterial diseases,-1,Carrier of infectious organism,broadMatch,NA,NA,FALSE
+4029497,Aneurysm of cerebral artery,0.447787,,19233.1,37084767,"Cerebral aneurysm, nonruptured",4029497,Aneurysm of cerebral artery,exactMatch,NA,NA,TRUE
+4066234,Cerebral venous thrombosis in puerperium,0.940359,best_match: the state was cut to 2048 prompt tokens,21574.5,37092117,Cerebral venous thrombosis in the puerperium,4066234,Cerebral venous thrombosis in puerperium,exactMatch,NA,NA,TRUE
+4072595,Lives with father,0.85424,,10864.8,45518269,Child lives with father,4072595,Lives with father,exactMatch,NA,NA,TRUE
+-1,None,0.818742,,16373.6,37225693,"Chondrolysis, forearm",-1,Disorder of forearm,broadMatch,NA,NA,TRUE
+4181454,Articular cartilage disorder of hip,0.478201,,16835.2,1571440,"Chondromalacia, hip",-1,Chondromalacia,broadMatch,NA,NA,FALSE
+-1,None,0.545974,,17005.1,45592254,"Chorioamnionitis, second trimester, fetus 3",-1,Chorioamnionitis,broadMatch,NA,NA,TRUE
+44782736,Chronic deep venous thrombosis of popliteal vein,0.352983,best_match: the state was cut to 2048 prompt tokens,19515.2,45601090,"Chronic embolism and thrombosis of popliteal vein, bilateral",762023,Chronic deep venous thrombosis of bilateral popliteal veins,exactMatch,NA,NA,FALSE
+135214,Polycythemia vera (clinical),0.335194,best_match: the state was cut to 2048 prompt tokens,21213.8,37095180,Chronic erythremia,135214,Polycythemia vera (clinical),exactMatch,NA,NA,TRUE
+46270419,Chronic gout of elbow without tophus due to renal impairment,0.319614,,15874.8,9770,"Chronic gout due to renal impairment, right elbow",-1,Gout of elbow due to renal impairment,broadMatch,NA,NA,FALSE
+-1,None,0.536645,,16508.8,42489033,"Chronic obstructive pulmonary disease with acute exacerbation, unspecified, mild",-1,Acute exacerbation of chronic obstructive pulmonary disease,broadMatch,NA,NA,TRUE
+4177862,Chronic hypoxemic respiratory failure,0.966508,,12986.1,42489166,"Chronic respiratory failure, type I [hypoxic]",4177862,Chronic hypoxemic respiratory failure,exactMatch,NA,NA,TRUE
+439083,"Hydatidiform mole, benign",0.37956,,16293.2,37091592,Classical hydatidiform mole,4129710,Complete hydatidiform mole,exactMatch,NA,NA,FALSE
+134746,Finger clubbing,0.829989,,15130.7,42497062,Clubbing of fingers,134746,Finger clubbing,exactMatch,NA,NA,TRUE
+4216493,Cocaine withdrawal,0.906013,,14770.2,725289,"Cocaine use, unspecified with withdrawal",4216493,Cocaine withdrawal,exactMatch,NA,NA,TRUE
+-1,None,0.360663,,15382.2,37402466,"Cocaine use, unspecified, in remission",-1,Disorder caused by psychoactive substance,broadMatch,NA,NA,TRUE
+-1,None,0.437714,best_match: the state was cut to 2048 prompt tokens,19518.2,45601867,"Complete placenta previa NOS or without hemorrhage, third trimester",-1,Third trimester pregnancy,broadMatch,NA,NA,TRUE
+-1,None,0.652252,,16798.3,42496152,"Congenital absence, atresia and stricture of auditory canal(external)",-1,Congenital stricture of external auditory canal,broadMatch,NA,NA,TRUE
+4046356,Congenital myasthenic syndrome,0.710774,,18252.2,42487274,Congenital and developmental myasthenia,4046356,Congenital myasthenic syndrome,exactMatch,NA,NA,TRUE
+4027702,Congenital anomaly of lens,0.96592,,16226,1572055,Congenital lens malformations,4027702,Congenital anomaly of lens,exactMatch,NA,NA,TRUE
+436805,Congenital anomaly of anterior segment of eye,0.955968,best_match: the state was cut to 2048 prompt tokens,22815.2,35210756,"Congenital malformation of anterior segment of eye, unspecified",436805,Congenital anomaly of anterior segment of eye,exactMatch,NA,NA,TRUE
+4245646,Congenital septal defect of heart,0.8937,best_match: the state was cut to 2048 prompt tokens,16945.7,37093016,"Congenital malformation of cardiac septum, unspecified",4245646,Congenital septal defect of heart,exactMatch,NA,NA,TRUE
+4243365,Congenital anomaly of female genital system,0.888404,,18621.7,1426278,"Congenital malformation of female genitalia, unspecified",4243365,Congenital anomaly of female genital system,exactMatch,NA,NA,TRUE
+-1,None,0.425313,,13766.1,1576184,Contact with and (suspected) exposure to hazards in the physical environment,-1,Exposure to potentially hazardous substance,broadMatch,NA,NA,TRUE
+37116462,Exposure to intestinal infectious disease,0.906034,,12867.1,42505276,Contact with and exposure to intestinal infectious diseases,37116462,Exposure to intestinal infectious disease,exactMatch,NA,NA,TRUE
+-1,None,0.461917,,12974.8,42503460,"Contact with venomous marine animals and plants, unspecified place",-1,Exposure to poison of venomous animals and plants,broadMatch,NA,NA,TRUE
+-1,None,0.510052,,18695.2,45539133,"Continuing pregnancy after elective fetal reduction of one fetus or more, second trimester, fetus 1",-1,Second trimester pregnancy,broadMatch,NA,NA,TRUE
+-1,None,0.584245,,17517.5,1571758,Continuing pregnancy after intrauterine death of one fetus or more,432373,Continuing pregnancy after intrauterine death of one or more fetuses,exactMatch,NA,NA,FALSE
+-1,None,0.486588,,15182.6,1572403,Contusion of eyeball and orbital tissues,433911,Contusion of eye AND ocular adnexa,exactMatch,NA,NA,FALSE
+-1,None,0.633376,,18493,1574545,Corrosion of cornea and conjunctival sac,-1,Injury of cornea,broadMatch,NA,NA,TRUE
+4016945,Bacterial culture,0.675897,best_match: the state was cut to 2048 prompt tokens,22979.6,45488830,Culture - bacteriology,4016945,Bacterial culture,exactMatch,NA,NA,TRUE
+4080755,Cutaneous chromoblastomycosis,0.49546,best_match: the state was cut to 2048 prompt tokens,37266,35205856,Cutaneous chromomycosis,-1,Cutaneous chromoblastomycosis,broadMatch,NA,NA,FALSE
+-1,None,0.397539,,16539.1,1326522,"Degenerative myopia with retinal detachment, left eye",-1,Degenerative progressive high myopia,broadMatch,NA,NA,TRUE
+443247,Labor and delivery complicated by fetal heart rate anomaly,0.902893,,19821.1,1423740,Delivery complicated by fetal heart rate abnormalities (machine translation),443247,Labor and delivery complicated by fetal heart rate anomaly,exactMatch,NA,NA,TRUE
+-1,None,0.470766,,19131.5,37605180,"Dementia in Creutzfeldt-Jakob disease, with other symptoms, predominantly hallucinatory, mild",-1,Dementia due to Creutzfeldt Jakob disease,broadMatch,NA,NA,TRUE
+-1,None,0.468243,,18559.7,37402416,"Dementia in other diseases classified elsewhere, moderate, with agitation",-1,Moderate dementia,broadMatch,NA,NA,TRUE
+4108900,Embryonic cyst of ovary,0.891836,,15548.3,45587461,Developmental ovarian cyst,4108900,Embryonic cyst of ovary,exactMatch,NA,NA,TRUE
+380097,Macular edema due to diabetes mellitus,0.555915,best_match: the state was cut to 2048 prompt tokens,26352.5,37200082,"Diabetes mellitus due to underlying condition with diabetic macular edema, resolved following treatment, bilateral",-1,Secondary diabetes mellitus,broadMatch,NA,NA,FALSE
+380096,Proliferative retinopathy due to diabetes mellitus,0.620397,best_match: the state was cut to 2048 prompt tokens,29363.6,37200077,"Diabetes mellitus due to underlying condition with proliferative diabetic retinopathy without macular edema, bilateral",-1,Secondary diabetes mellitus,broadMatch,NA,NA,FALSE
+-1,None,0.61974,,17243.2,37082094,Diabetes mellitus in connection with deficient nutrition or malnutritionwith multiple complications: Not described as derailed,-1,Disorder due to malnutrition related diabetes mellitus,broadMatch,NA,NA,TRUE
+194700,"Diabetes mellitus in mother complicating pregnancy, childbirth AND/OR puerperium",0.855137,,16999.6,44837245,"Diabetes mellitus of mother, complicating pregnancy, childbirth, or the puerperium, unspecified as to episode of care or not applicable",194700,"Diabetes mellitus in mother complicating pregnancy, childbirth AND/OR puerperium",exactMatch,NA,NA,TRUE
+438680,Laryngeal diphtheria,0.890336,best_match: the state was cut to 2048 prompt tokens,20369.5,1403691,Diphtheria laryngotracheitis (machine translation),438680,Laryngeal diphtheria,exactMatch,NA,NA,TRUE
+4060429,"Disease of the respiratory system complicating pregnancy, childbirth and/or the puerperium",0.52283,,16615.2,45534326,"Diseases of the respiratory system complicating pregnancy, second trimester",-1,"Disease of the respiratory system complicating pregnancy, childbirth and/or the puerperium",broadMatch,NA,NA,FALSE
+438815,Disorder of amniotic cavity AND/OR membrane,0.504252,,16994.7,45601859,"Disorder of amniotic fluid and membranes, unspecified, second trimester, fetus 4",-1,Second trimester pregnancy,broadMatch,NA,NA,FALSE
+-1,None,0.710977,,16008,37090689,"Disorder of bone, unspecified, pelvic region and thigh",-1,Disorder of pelvis,broadMatch,NA,NA,TRUE
+-1,None,0.649765,,15118.9,1102643,Disorders of citrate metabolism,-1,Disorder of organic acid metabolism,broadMatch,NA,NA,TRUE
+4109398,Visual cortex disorder due to neoplasm,0.935054,,15887.5,44832349,Disorders of visual cortex associated with neoplasms,4109398,Visual cortex disorder due to neoplasm,exactMatch,NA,NA,TRUE
+-1,None,0.562028,,16008.4,20735,Drowning and submersion due to falling or jumping from unspecified burning watercraft,-1,Submersion and drowning due to falling from burning ship,broadMatch,4068331,exactMatch,TRUE
+-1,None,0.715426,best_match: the state was cut to 2048 prompt tokens,26007.2,37200139,"Drug or chemical induced diabetes mellitus with diabetic macular edema, resolved following treatment, bilateral",-1,Macular edema due to diabetes mellitus,broadMatch,NA,NA,TRUE
+-1,None,0.677879,best_match: the state was cut to 2048 prompt tokens,19250.1,45566726,Drug or chemical induced diabetes mellitus with other circulatory complications,-1,Drug-induced diabetes mellitus,broadMatch,NA,NA,TRUE
+-1,None,0.317021,best_match: the state was cut to 2048 prompt tokens,26375.1,37200127,Drug or chemical induced diabetes mellitus with stable proliferative diabetic retinopathy,-1,Drug-induced diabetes mellitus,broadMatch,NA,NA,TRUE
+4009034,Photoallergic dermatitis,0.279621,best_match: the state was cut to 2048 prompt tokens,16814.1,35208562,Drug photoallergic response,4286349,Drug-induced photosensitivity,exactMatch,4009034,exactMatch,TRUE
+46270458,Gout of multiple sites caused by drug,0.906603,,16371.1,45601313,"Drug-induced gout, multiple sites",46270458,Gout of multiple sites caused by drug,exactMatch,NA,NA,TRUE
+46270453,Gout of ankle and/or foot caused by drug,0.963988,,18626.3,45548294,"Drug-induced gout, unspecified ankle and foot",46270453,Gout of ankle and/or foot caused by drug,exactMatch,NA,NA,TRUE
+46270460,Gout of vertebra caused by drug,0.961091,,15799.1,45538653,"Drug-induced gout, vertebrae",46270460,Gout of vertebra caused by drug,exactMatch,NA,NA,TRUE
+4209746,Duodenal ulcer without hemorrhage AND without perforation,0.968991,best_match: the state was cut to 2048 prompt tokens,19363.2,35208218,"Duodenal ulcer, unspecified as acute or chronic, without hemorrhage or perforation",4198381,Ulcer of duodenum,exactMatch,4209746,exactMatch,TRUE
+-1,None,0.500723,,15231,1572249,Dysphasia and aphasia,-1,"Aphasia, agnosia, dyslexia AND/OR apraxia",broadMatch,NA,NA,TRUE
+46269808,Shock due to ectopic pregnancy,0.751738,,16950.7,1423040,Ectopic pregnancy shock (machine translation),46269808,Shock due to ectopic pregnancy,exactMatch,37167172,exactMatch,TRUE
+36684501,Effusion of joint of left knee,0.978565,,14009.8,36569193,Effusion (l) knee,36684501,Effusion of joint of left knee,exactMatch,NA,NA,TRUE
+312337,Arterial embolus and thrombosis,0.968307,,16552.3,37615395,Embolism and thrombosis of other arteries,312337,Arterial embolus and thrombosis,exactMatch,NA,NA,TRUE
+-1,None,0.438899,,15329,36919045,Emotional disorder,4305081,Emotional problems,exactMatch,444100,exactMatch,FALSE
+372892,Metabolic encephalopathy,0.444154,,14484.7,21013352,Encephalopathy in endocrine and metabolic disorders classified elsewhere (machine translation),372892,Metabolic encephalopathy,exactMatch,NA,NA,TRUE
+-1,None,0.757382,,14544.7,37607004,Endocarditis and heart valve disorders in diseases classified elsewhere,-1,Endocarditis associated with another disorder,broadMatch,NA,NA,TRUE
+4063245,Endocrine disorder monitoring,0.776456,,13560.1,45458717,Endocrine monitoring NOS,4063245,Endocrine disorder monitoring,exactMatch,NA,NA,TRUE
+200775,Endometrial hyperplasia,0.284324,,16286.6,37613302,Endometrial glandular hyperplasia,200775,Endometrial hyperplasia,exactMatch,NA,NA,TRUE
+4082627,Enteropathy-associated T-cell lymphoma,0.424713,best_match: the state was cut to 2048 prompt tokens,18112.9,1102895,Enteropathy-type (intestinal) T-cell lymphoma not having achieved remission,4082627,Enteropathy-associated T-cell lymphoma,exactMatch,NA,NA,TRUE
+42537682,Enthesopathy of upper limb,0.468765,,16834.6,37224781,"Enthesopathy, unspecified, upper arm",42537682,Enthesopathy of upper limb,exactMatch,NA,NA,TRUE
+4345472,Epstein-Barr virus disease,0.566644,best_match: the state was cut to 2048 prompt tokens,29658.5,36110888,Epstein-Barr virus infection,4345472,Epstein-Barr virus disease,exactMatch,NA,NA,TRUE
+4053454,Exfoliative erythema,0.43367,best_match: the state was cut to 2048 prompt tokens,20584.4,44821095,Exfoliation due to erythematous condition involving 10-19 percent of body surface,-1,Erythema of skin,broadMatch,NA,NA,FALSE
+434238,Exposed to noise,0.868932,,16940.5,37607571,Exposure to noise,434238,Exposed to noise,exactMatch,NA,NA,TRUE
+40480271,Extra unidentified structurally abnormal chromosome,0.78866,,17299.5,37611262,Extra marker chromosomes,40480271,Extra unidentified structurally abnormal chromosome,exactMatch,NA,NA,TRUE
+4160345,Neoplasm of eye proper,0.925696,,18486,1413053,Eye tumor (machine translation),4160345,Neoplasm of eye proper,exactMatch,NA,NA,TRUE
+4021487,Finding of color of stool,0.38884,,14906.6,45431993,Faeces examination - colour,4021487,Finding of color of stool,exactMatch,4065548,exactMatch,TRUE
+44783618,Heritable pulmonary arterial hypertension,0.631686,,17387.7,37282746,Familial (FPAH),4119611,Familial primary pulmonary hypertension,exactMatch,NA,NA,FALSE
+-1,None,0.637344,best_match: the state was cut to 2048 prompt tokens,19391.1,37087421,"Familial chondrocalcinosis, forearm",-1,Familial chondrocalcinosis,broadMatch,NA,NA,TRUE
+-1,None,0.699103,,17992.2,1102682,Fat embolism of pulmonary artery with acute cor pulmonale,-1,Pulmonary fat embolism,broadMatch,NA,NA,TRUE
+4119608,Pulmonary fat embolism,0.591842,,15230,1102684,Fat embolism of pulmonary artery without acute cor pulmonale,4119608,Pulmonary fat embolism,exactMatch,-1,broadMatch,TRUE
+37167136,Fetal disorder due to oligohydramnios,0.739772,,15317.6,1424365,Fetus and newborn affected by oligohydramnios,37167136,Fetal disorder due to oligohydramnios,exactMatch,NA,NA,TRUE
+-1,None,0.620161,,14917.8,37089810,"Fibromyalgia, hand",-1,Fibromyalgia,broadMatch,NA,NA,TRUE
+4233830,Monostotic fibrous dysplasia,0.971733,best_match: the state was cut to 2048 prompt tokens,20725.1,42493875,Fibrous dysplasia (monostotic),4233830,Monostotic fibrous dysplasia,exactMatch,NA,NA,TRUE
+1246051,Flail joint of wrist,0.97759,,13552.2,45601420,"Flail joint, unspecified wrist",1246051,Flail joint of wrist,exactMatch,NA,NA,TRUE
+4011508,Fracture of skull and facial bones,0.562783,,15676,37201411,"Fracture of other specified skull and facial bones, right side",-1,Fracture of bone of head,broadMatch,NA,NA,FALSE
+37168846,Fracture of bone of shoulder girdle,0.949986,,15523.6,12399,"Fracture of unspecified shoulder girdle, part unspecified",37168846,Fracture of bone of shoulder girdle,exactMatch,NA,NA,TRUE
+198911,Full thickness burn of trunk,0.930286,,16211.8,44830588,Full-thickness skin loss due to burn [third degree NOS] of trunk,198911,Full thickness burn of trunk,exactMatch,NA,NA,TRUE
+440396,Glaucoma due to ocular trauma,0.940131,best_match: the state was cut to 2048 prompt tokens,19165.1,37084048,Glaucoma secondary to eye trauma,440396,Glaucoma due to ocular trauma,exactMatch,NA,NA,TRUE
+-1,None,0.642246,,19241.4,45547895,"Glaucoma secondary to other eye disorders, left eye",-1,Glaucoma associated with ocular disorder,broadMatch,NA,NA,TRUE
+37116425,Infection of musculoskeletal system caused by Neisseria gonorrhoeae,0.948945,best_match: the state was cut to 2048 prompt tokens,18171.3,45595591,Gonococcal infection of other musculoskeletal tissue,37116425,Infection of musculoskeletal system caused by Neisseria gonorrhoeae,exactMatch,NA,NA,TRUE
+72562,Gonococcal spondylitis,0.887585,best_match: the state was cut to 2048 prompt tokens,17212.7,45566515,Gonococcal spondylopathy,72562,Gonococcal spondylitis,exactMatch,NA,NA,TRUE
+-1,None,0.553379,,15931.4,37087581,"Gout arthropathy due to enzyme defects and other congenital diseases: hand [fingers, wrist, metacarpal, joints between these bones]",-1,Gout secondary to enzyme defect,broadMatch,NA,NA,TRUE
+-1,None,0.46257,,17034.7,37402468,"Hallucinogen use, unspecified, in remission",-1,Disorder caused by psychoactive substance,broadMatch,NA,NA,TRUE
+4154784,Impaired wound healing,0.409942,,12770,35843794,Healing delayed,37312235,Delayed healing of wound,exactMatch,NA,NA,FALSE
+42538118,Transplanted heart-lung present,0.314164,,15068.4,42505891,Heart and lungs transplant status,42538118,Transplanted heart-lung present,exactMatch,-1,broadMatch,TRUE
+-1,None,0.452327,best_match: the state was cut to 2048 prompt tokens,24120.1,1102907,Heavy chain disease not having achieved remission,4288751,Heavy chain disease,exactMatch,-1,broadMatch,TRUE
+-1,None,0.696374,best_match: the state was cut to 2048 prompt tokens,18544.9,1102908,"Heavy chain disease, in remission",-1,Heavy chain disease,broadMatch,NA,NA,TRUE
+194856,Hepatic coma due to viral hepatitis A,0.965663,,14495.6,37613740,Hepatitis A with hepatic coma,194856,Hepatic coma due to viral hepatitis A,exactMatch,NA,NA,TRUE
+-1,None,0.600728,,15642,44829752,Hepatitis E with hepatic coma,-1,Hepatic coma,broadMatch,NA,NA,TRUE
+4229262,Wilson's disease,0.920528,,16832.3,35306057,Hepato-lenticular degeneration,4229262,Wilson's disease,exactMatch,NA,NA,TRUE
+606884,Hereditary disorder of tooth,0.367241,,15567,42505980,"Hereditary disturbances in tooth structure, unspecified",606884,Hereditary disorder of tooth,exactMatch,NA,NA,TRUE
+434007,Hereditary factor VIII deficiency disease,0.913688,,17958.7,37605894,Hereditary factor VIII deficiency,434007,Hereditary factor VIII deficiency disease,exactMatch,NA,NA,TRUE
+-1,None,0.685121,,16693.8,45755391,Hordeolum and chalazion,-1,Disorder of eyelid,broadMatch,NA,NA,TRUE
+4230400,Hormone receptor negative neoplasm,0.935979,,15024.9,1102840,Hormone receptor negative,4230400,Hormone receptor negative neoplasm,exactMatch,NA,NA,TRUE
+4167363,Hormone receptor positive tumor,0.857007,,17913.3,1102837,Hormone receptor positive,4167363,Hormone receptor positive tumor,exactMatch,NA,NA,TRUE
+40479557,Encephalitis caused by human herpesvirus 6 infection,0.94711,best_match: the state was cut to 2048 prompt tokens,24714.7,44819370,Human herpesvirus 6 encephalitis,40479557,Encephalitis caused by human herpesvirus 6 infection,exactMatch,NA,NA,TRUE
+44789423,Alleged perpetrator of domestic violence,0.357839,,12108.4,786340,"Husband, current, perpetrator of maltreatment and neglect",-1,Finding relating to aggressive behavior,broadMatch,NA,NA,FALSE
+37160490,Hydroxyapatite deposition disease of hip joint,0.979804,,16669.1,45601319,"Hydroxyapatite deposition disease, unspecified hip",37160490,Hydroxyapatite deposition disease of hip joint,exactMatch,NA,NA,TRUE
+1246330,Hypertrichosis of right lower eyelid,0.955042,,14488,45605590,Hypertrichosis of right lower eyelid,1246330,Hypertrichosis of right lower eyelid,exactMatch,NA,NA,TRUE
+-1,None,0.382012,best_match: the state was cut to 2048 prompt tokens,17092.3,1102633,Hypoglycemia level 2,-1,Hypoglycemia,broadMatch,NA,NA,TRUE
+4268413,Hypoglycemic attack requiring 3rd party assistance,0.543663,best_match: the state was cut to 2048 prompt tokens,17013.1,1102634,Hypoglycemia level 3,-1,Hypoglycemia,broadMatch,4268413,exactMatch,TRUE
+-1,None,0.784524,best_match: the state was cut to 2048 prompt tokens,39532.2,42494070,"Idiopathic aseptic necrosis of bone, forearm",-1,Osteonecrosis of bone of upper limb,broadMatch,NA,NA,TRUE
+1076940,Osteonecrosis of carpal bone of left wrist,0.665925,best_match: the state was cut to 2048 prompt tokens,18046.9,45601649,Idiopathic aseptic necrosis of left carpus,-1,Osteonecrosis of bone of upper limb,broadMatch,NA,NA,FALSE
+-1,None,0.509158,,15790.2,37089999,"Idiopathic osteoporosis, upper arm",-1,Idiopathic osteoporosis,broadMatch,NA,NA,TRUE
+-1,None,0.508298,,18238.9,42495121,"Incomplete other abortion, with other and unspecified complications (conditions in O08.3-O08.)",434413,Incomplete miscarriage with complication,exactMatch,NA,NA,FALSE
+43530964,Induced termination of pregnancy complicated by infectious disease,0.674429,,16767.1,36110511,Induced abortion infection,43530964,Induced termination of pregnancy complicated by infectious disease,exactMatch,NA,NA,TRUE
+4308690,Prosthetic joint infection,0.470265,best_match: the state was cut to 2048 prompt tokens,18622.8,1575278,Infection and inflammatory reaction due to internal joint prosthesis,-1,Prosthetic joint infection,broadMatch,NA,NA,FALSE
+-1,None,0.300952,best_match: the state was cut to 2048 prompt tokens,18609.7,1575178,Infection due to central venous catheter,-1,CLABSI - central line associated bloodstream infection,broadMatch,NA,NA,TRUE
+-1,None,0.575024,,17835.7,45606653,Infection of kidney following delivery,-1,Infectious disorder of kidney,broadMatch,NA,NA,TRUE
+37208108,Infection of superficial obstetric surgical wound,0.867533,,14485.6,1595653,"Infection of obstetric surgical wound, superficial incisional site",37208108,Infection of superficial obstetric surgical wound,exactMatch,NA,NA,TRUE
+4170118,Cystitis of pregnancy,0.527077,,15462.8,45543919,"Infections of bladder in pregnancy, third trimester",-1,Urinary tract infection in pregnancy,broadMatch,NA,NA,FALSE
+-1,None,0.670594,,16076.4,45591868,"Infective myositis, left finger(s)",-1,Infective myositis of hand,broadMatch,NA,NA,TRUE
+4266367,Influenza,0.611912,,17018.4,1569462,Influenza due to unidentified influenza virus,4266367,Influenza,exactMatch,NA,NA,TRUE
+-1,None,0.44528,,14083,37402469,"Inhalant use, unspecified, in remission",-1,Disorder caused by psychoactive substance,broadMatch,NA,NA,TRUE
+4072660,Hit by railway vehicle,0.530725,,13661.6,45520843,"Injured by rolling stock, NOS",-1,Hit by railway vehicle,broadMatch,4072660,exactMatch,TRUE
+-1,None,0.662311,,14468.5,1572809,Injury of branches of celiac and mesenteric artery,-1,Injury of blood vessel of abdomen,broadMatch,NA,NA,TRUE
+-1,None,0.522296,,14393.9,1572665,Injury of intercostal blood vessels,-1,Injury of blood vessels of thorax,broadMatch,NA,NA,TRUE
+78647,Peroneal nerve injury,0.524467,,18023.6,1573900,Injury of peroneal nerve at lower leg level,4106172,Traumatic injury of common peroneal nerve,exactMatch,NA,NA,FALSE
+3661864,Allergic reaction caused by insect bite and/or insect sting,0.525185,,15556.5,1576270,Insect allergy status,-1,Allergic reaction caused by insect bite and/or insect sting,broadMatch,NA,NA,FALSE
+43530721,Intracranial granuloma,0.741455,,15848.9,1411316,Intracranial inflammatory granuloma (machine translation),43530721,Intracranial granuloma,exactMatch,NA,NA,TRUE
+438590,Brain injury with open intracranial wound,0.59631,best_match: the state was cut to 2048 prompt tokens,18411.6,44830528,Intracranial injury of other and unspecified nature with open intracranial wound,438590,Brain injury with open intracranial wound,exactMatch,NA,NA,TRUE
+-1,None,0.65074,,17455,1411320,Intraspinal abscess and granuloma,-1,Inflammatory disorder of head,broadMatch,NA,NA,TRUE
+4143969,Isolated (Fiedler's) myocarditis,0.744905,,15332.2,42488458,Isolated myocarditis,4143969,Isolated (Fiedler's) myocarditis,exactMatch,NA,NA,TRUE
+-1,None,0.8485,,17734.3,37223683,"Juvenile idiopathic scoliosis, lumbosacral region",-1,Adolescent idiopathic scoliosis,broadMatch,NA,NA,TRUE
+-1,None,0.48351,,11634.9,42619363,"Juvenile idiopathic scoliosis, multiple sites in spine",-1,Adolescent idiopathic scoliosis,broadMatch,NA,NA,TRUE
+-1,None,0.475368,best_match: the state was cut to 2048 prompt tokens,27416.9,45547559,"Juvenile myelomonocytic leukemia, not having achieved remission",40482847,Juvenile myelomonocytic leukemia,exactMatch,NA,NA,FALSE
+36680579,KCNQ2-related epileptic encephalopathy,0.551804,best_match: the state was cut to 2048 prompt tokens,21892.8,1102673,KCNQ2-related epilepsy,36680579,KCNQ2-related epileptic encephalopathy,exactMatch,NA,NA,TRUE
+-1,None,0.781611,,18808.1,44830208,Kidney failure following abortion and ectopic and molar pregnancies,-1,Finding related to pregnancy,broadMatch,NA,NA,TRUE
+-1,None,0.345298,,13700.1,45548832,Labor and delivery complicated by other evidence of fetal stress,4063307,Labor and delivery complicated by biochemical evidence of fetal stress,exactMatch,NA,NA,FALSE
+436820,Late anemia due to isoimmunization,0.356711,best_match: the state was cut to 2048 prompt tokens,18127.5,44831576,Late anemia of fetus or newborn due to isoimmunization,4071073,Late anemia of newborn due to isoimmunization,exactMatch,NA,NA,FALSE
+-1,None,0.484009,,15472.5,9724,"Lead-induced chronic gout, unspecified elbow",-1,Chronic gout caused by lead,broadMatch,NA,NA,TRUE
+4105090,Regional osteoporosis,0.420946,,14873.1,42618665,"Localized osteoporosis [Lequesne], other",4004623,Localized osteoporosis - Lequesne,exactMatch,NA,NA,FALSE
+-1,None,0.526327,,14295.8,42496887,"Localized swelling, mass and lump of skin and subcutaneous tissue",-1,Swelling of skin,broadMatch,NA,NA,TRUE
+434644,Locked in syndrome,0.950071,,12332.2,45591199,Locked-in state,434644,Locked in syndrome,exactMatch,NA,NA,TRUE
+-1,None,0.431263,,13047.2,45516780,Low vision,-1,Abnormal vision,broadMatch,NA,NA,TRUE
+42539222,Lesion of left lower leg bone,0.576111,,14482.1,45558103,"Major osseous defect, left lower leg",-1,Disorder of lower leg,broadMatch,NA,NA,FALSE
+4309167,Malfunction of external stoma of urinary tract,0.553807,,12948.1,45577547,Malfunction of incontinent external stoma of urinary tract,4309167,Malfunction of external stoma of urinary tract,exactMatch,NA,NA,TRUE
+1244536,Well-differentiated neuroendocrine tumor,0.56684,best_match: the state was cut to 2048 prompt tokens,20916.8,45600530,Malignant carcinoid tumor of unspecified site,-1,Well-differentiated neuroendocrine tumor,broadMatch,NA,NA,FALSE
+1244536,Well-differentiated neuroendocrine tumor,0.56684,best_match: the state was cut to 2048 prompt tokens,18689.5,1567609,Malignant carcinoid tumors,-1,Well-differentiated neuroendocrine tumor,broadMatch,NA,NA,FALSE
+1244536,Well-differentiated neuroendocrine tumor,0.56684,best_match: the state was cut to 2048 prompt tokens,18582.9,1567612,Malignant carcinoid tumors of other sites,-1,Well-differentiated neuroendocrine tumor,broadMatch,NA,NA,FALSE
+-1,None,0.526927,best_match: the state was cut to 2048 prompt tokens,20764.7,1102915,"Malignant immunoproliferative disease, unspecified not having achieved remission",4003834,Malignant immunoproliferative disease (clinical),exactMatch,-1,broadMatch,TRUE
+36552402,"Malignant melanoma, NOS, of skin of upper limb and shoulder",0.284479,,18051.4,42484898,"Malignant melanoma of upper limb, including shoulder",4149851,Malignant melanoma of upper limb,exactMatch,NA,NA,FALSE
+198082,Overlapping malignant neoplasm of body of uterus,0.568782,,16276.5,37610053,Malignant neoplasm: Overlapping lesion of corpus uteri,198082,Overlapping malignant neoplasm of body of uterus,exactMatch,NA,NA,TRUE
+4102373,Neuroendocrine carcinoma,0.394522,best_match: the state was cut to 2048 prompt tokens,20526,45537844,Malignant poorly differentiated neuroendocrine tumors,761025,Poorly differentiated malignant carcinoid tumor,exactMatch,NA,NA,FALSE
+4051630,Malingering,0.828081,,14622.9,45590756,Malingerer [conscious simulation],4051630,Malingering,exactMatch,NA,NA,TRUE
+4221933,Coma due to malnutrition-related diabetes mellitus,0.933885,best_match: the state was cut to 2048 prompt tokens,22126.4,37082072,"Malnutrition-related diabetes mellitus, with coma",4221933,Coma due to malnutrition-related diabetes mellitus,exactMatch,NA,NA,TRUE
+-1,None,0.620726,best_match: the state was cut to 2048 prompt tokens,20290.2,45596980,"Maternal care for other isoimmunization, first trimester, other fetus",-1,First trimester pregnancy,broadMatch,NA,NA,TRUE
+-1,None,0.563732,,13872.5,45572831,"Maternal care for viable fetus in abdominal pregnancy, third trimester, fetus 5",-1,Viable fetus in abdominal pregnancy,broadMatch,NA,NA,TRUE
+-1,None,0.435562,best_match: the state was cut to 2048 prompt tokens,21988.8,45542656,"Mature T/NK-cell lymphomas, unspecified, lymph nodes of inguinal region and lower limb",-1,Mature T-cell AND/OR NK cell neoplasm,broadMatch,NA,NA,TRUE
+37163828,Genital-pelvic infection due to and following complete induced termination of pregnancy,0.758604,best_match: the state was cut to 2048 prompt tokens,19050.2,37091617,"Medical abortion, complete or unspecified, complicated by genital tract and pelvic infection",43530910,Induced termination of pregnancy complicated by genital-pelvic infection,exactMatch,NA,NA,FALSE
+37163809,Incomplete induced termination of pregnancy complicated by embolism,0.760998,best_match: the state was cut to 2048 prompt tokens,18574.2,37091614,"Medical abortion, incomplete, complicated by embolism",37163809,Incomplete induced termination of pregnancy complicated by embolism,exactMatch,NA,NA,TRUE
+43021990,Inflammation associated with device,0.85891,,15750.6,45886125,Medical device site inflammation,43021990,Inflammation associated with device,exactMatch,NA,NA,TRUE
+37312034,Amnestic disorder caused by psychoactive substance,0.477324,,15542.7,1410524,"Mental and behavioural disorders due to multiple drug use and use of other psychoactive substances, amnesic syndrome",37312034,Amnestic disorder caused by psychoactive substance,exactMatch,NA,NA,TRUE
+-1,None,0.725774,,16179.6,37082661,"Mental and behavioural disorders due to use of cannabinoids, withdrawal state with delirium",4220197,Cannabis intoxication delirium,exactMatch,-1,broadMatch,TRUE
+4173746,Hallucinogen intoxication,0.726068,,14293.2,1410448,"Mental and behavioural disorders due to use of hallucinogens, acute intoxication",4173746,Hallucinogen intoxication,exactMatch,NA,NA,TRUE
+35610540,Harmful use of opioid,0.348984,,15713.2,1410337,"Mental and behavioural disorders due to use of opioids, harmful use",35610540,Harmful use of opioid,exactMatch,NA,NA,TRUE
+-1,None,0.6193,,17108.4,37613827,"Mental disorders and diseases of the nervous system complicating pregnancy, childbirth and the puerperium",-1,"Disease of nervous system complicating pregnancy, childbirth and puerperium",broadMatch,NA,NA,TRUE
+432612,Mild intellectual disability,0.927721,,14666.7,1411039,"Mild mental retardation, Without mention of impairment of behaviour",432612,Mild intellectual disability,exactMatch,NA,NA,TRUE
+-1,None,0.626377,best_match: the state was cut to 2048 prompt tokens,16383.4,37200967,"Mild to moderate pre-eclampsia, complicating childbirth",-1,Pre-eclampsia,broadMatch,NA,NA,TRUE
+-1,None,0.385058,,13176.8,1575861,Military operations involving other firearms discharge,-1,Assault by military firearm,broadMatch,NA,NA,TRUE
+320115,Mitral insufficiency and aortic stenosis,0.945346,best_match: the state was cut to 2048 prompt tokens,20499.5,44827777,Mitral valve insufficiency and aortic valve stenosis,320115,Mitral insufficiency and aortic stenosis,exactMatch,NA,NA,TRUE
+321041,Mitral stenosis and aortic insufficiency,0.940075,best_match: the state was cut to 2048 prompt tokens,20225,44828968,Mitral valve stenosis and aortic valve insufficiency,321041,Mitral stenosis and aortic insufficiency,exactMatch,NA,NA,TRUE
+4148108,Pediculosis and phthirus infections,0.726918,,15161,1405305,Mixed pediculosis and phthiriasis,4148108,Pediculosis and phthirus infections,exactMatch,NA,NA,TRUE
+4102195,Arbovirus encephalitis,0.736102,,17426.4,1567339,Mosquito-borne viral encephalitis,-1,Viral encephalitis,broadMatch,NA,NA,FALSE
+314381,Acute febrile mucocutaneous lymph node syndrome,0.952279,best_match: the state was cut to 2048 prompt tokens,19977.7,45557863,Mucocutaneous lymph node syndrome [Kawasaki],314381,Acute febrile mucocutaneous lymph node syndrome,exactMatch,NA,NA,TRUE
+-1,None,0.407813,,14319.2,1572787,Multiple fractures of pelvis with disruption of pelvic ring,-1,Multiple open fractures of pelvis with disruption of pelvic circle,broadMatch,NA,NA,TRUE
+441280,Schwartz-Jampel syndrome,0.585513,best_match: the state was cut to 2048 prompt tokens,21637,45576607,Myotonic chondrodystrophy,441280,Schwartz-Jampel syndrome,exactMatch,NA,NA,TRUE
+42537251,Polyp of nasal cavity and/or nasal sinus,0.578913,best_match: the state was cut to 2048 prompt tokens,24431,1569476,Nasal polyp,42537251,Polyp of nasal cavity and/or nasal sinus,exactMatch,42537252,exactMatch,TRUE
+-1,None,0.71618,,18497.7,42493253,"Necrotising fasciitis, hand",-1,Necrotizing fasciitis,broadMatch,NA,NA,TRUE
+4153454,Aspiration of liquor or mucus in newborn,0.77068,,16122.1,45592329,Neonatal aspiration of (clear) amniotic fluid and mucus with respiratory symptoms,-1,Neonatal aspiration syndrome,broadMatch,-1,broadMatch,FALSE
+1076113,Early neonatal jaundice due to excessive hemolysis,0.763425,best_match: the state was cut to 2048 prompt tokens,21615.4,45597087,"Neonatal jaundice due to excessive haemolysis, unspecified",1076113,Early neonatal jaundice due to excessive hemolysis,exactMatch,NA,NA,TRUE
+-1,None,0.542922,,16398.8,37083523,Nerve root and plexus compressions in other dorsopathies,-1,Lesion of nerve root and/or plexus,broadMatch,NA,NA,TRUE
+37167889,Early neonatal disorder due to maternal disorder during pregnancy,0.534197,,14517.8,35210412,Newborn affected by other maternal complications of pregnancy,37167889,Early neonatal disorder due to maternal disorder during pregnancy,exactMatch,NA,NA,TRUE
+-1,None,0.324202,,13666.6,786349,"Non-binary partner, current, perpetrator of maltreatment and neglect",-1,Finding relating to aggressive behavior,broadMatch,NA,NA,TRUE
+4030362,Familial non-neuropathic amyloidosis,0.940521,best_match: the state was cut to 2048 prompt tokens,21886.7,37608257,Non-neuropathic heredofamilial amyloidosis,4030362,Familial non-neuropathic amyloidosis,exactMatch,NA,NA,TRUE
+195867,Noninflammatory disorder of the vagina,0.966264,,16054.1,35209457,"Noninflammatory disorder of vagina, unspecified",195867,Noninflammatory disorder of the vagina,exactMatch,NA,NA,TRUE
+45769461,Non-rheumatic mitral valve disease,0.946641,,17130.9,42488431,"Nonrheumatic mitral valve disorder, unspecified",45769461,Non-rheumatic mitral valve disease,exactMatch,NA,NA,TRUE
+4111412,"Tricuspid incompetence, non-rheumatic",0.965374,best_match: the state was cut to 2048 prompt tokens,20917.5,37084578,Nonrheumatic tricuspid (valve) insufficiency,4111412,"Tricuspid incompetence, non-rheumatic",exactMatch,NA,NA,TRUE
+4111414,Non-rheumatic tricuspid valve stenosis with insufficiency,0.938891,best_match: the state was cut to 2048 prompt tokens,20650.1,37609039,Nonrheumatic tricuspid (valve) stenosis with insufficiency,4111414,Non-rheumatic tricuspid valve stenosis with insufficiency,exactMatch,NA,NA,TRUE
+-1,None,0.489956,,14468.8,42488804,Nonspecific lymphadenitis,316084,Lymphadenitis,exactMatch,NA,NA,FALSE
+141825,Simple goiter,0.943837,,14244.6,42485922,"Nontoxic goitre, unspecified",141825,Simple goiter,exactMatch,NA,NA,TRUE
+37312075,Pulse present in right femoral artery,0.981576,,13484.2,45518428,O/E - R.femoral pulse present,37312075,Pulse present in right femoral artery,exactMatch,NA,NA,TRUE
+4329707,Strabismus,0.957438,,12481.7,45501759,O/E - strabismus - squint,4329707,Strabismus,exactMatch,NA,NA,TRUE
+37312235,Delayed healing of wound,0.823781,,13469.2,45511686,O/E wound healing delayed,37312235,Delayed healing of wound,exactMatch,NA,NA,TRUE
+37397209,Obesity due to melanocortin 4 receptor deficiency,0.90681,,16435.6,1102646,Obesity due to disruption of MC4R pathway,37397209,Obesity due to melanocortin 4 receptor deficiency,exactMatch,NA,NA,TRUE
+-1,None,0.420187,best_match: the state was cut to 2048 prompt tokens,17138.1,1575911,Obstetric and gynecological devices associated with adverse incidents,-1,Complication associated with genitourinary device,broadMatch,NA,NA,TRUE
+372479,Laceration of eye,0.567563,best_match: the state was cut to 2048 prompt tokens,18692.1,10443,"Ocular laceration without prolapse or loss of intraocular tissue, unspecified eye",372479,Laceration of eye,exactMatch,NA,NA,TRUE
+-1,None,0.421787,,15888.1,45563138,"Oligohydramnios, second trimester, other fetus",-1,Oligohydramnios,broadMatch,NA,NA,TRUE
+-1,None,0.682494,,17320.8,44835126,"Open fractures involving skull or face with other bones, without mention of intracranial injury, with brief [less than one hour] loss of consciousness",-1,Open fracture,broadMatch,NA,NA,TRUE
+37310188,Open wound of female external genitalia,0.368113,,12998,42498185,Open wound of vagina and vulva,-1,Open wound of female external genitalia,broadMatch,NA,NA,FALSE
+43021250,Complication associated with orthopedic device,0.645276,,15423.9,1575914,Orthopedic devices associated with adverse incidents,43021250,Complication associated with orthopedic device,exactMatch,NA,NA,TRUE
+4069651,Stenosis of spinal canal due to bone,0.868084,,17756.2,1421301,Osseous stenosis of neural canal,4069651,Stenosis of spinal canal due to bone,exactMatch,NA,NA,TRUE
+-1,None,0.745941,,15711.6,37225260,"Osteitis condensans, hand",-1,Osteitis condensans,broadMatch,NA,NA,TRUE
+-1,None,0.779844,,15872,45587159,"Osteitis condensans, unspecified hand",-1,Osteitis condensans,broadMatch,NA,NA,TRUE
+-1,None,0.492059,,16097.4,37090828,"Osteochondrosis dissecans: pelvic region and thigh [pelvis, femur, buttocks, hips, hip joint, sacroiliac joint]",-1,Osteochondritis dissecans,broadMatch,NA,NA,TRUE
+-1,None,0.6878,,15950.3,37223852,"Osteomyelitis of vertebra, lumbosacral region",-1,Disorder of lumbar spine,broadMatch,NA,NA,TRUE
+37164275,Osteonecrosis due to trauma,0.920891,,16918.2,45538982,"Osteonecrosis due to previous trauma, other site",37164275,Osteonecrosis due to trauma,exactMatch,NA,NA,TRUE
+4069528,Osteonecrosis due to Caisson disease,0.461739,best_match: the state was cut to 2048 prompt tokens,19513.5,37090735,"Osteonecrosis in caisson disease, multiple sites",4069528,Osteonecrosis due to Caisson disease,exactMatch,45757800,exactMatch,TRUE
+-1,None,0.722308,best_match: the state was cut to 2048 prompt tokens,34593,37090758,"Osteonecrosis in other diseases classified elsewhere, multiple sites",-1,Osteonecrosis,broadMatch,NA,NA,TRUE
+435055,Poliomyelitis osteopathy of the hand,0.959109,best_match: the state was cut to 2048 prompt tokens,20289.6,1571345,"Osteopathy after poliomyelitis, hand",435055,Poliomyelitis osteopathy of the hand,exactMatch,NA,NA,TRUE
+36684563,Osteophyte of left knee,0.975299,,14617.8,45596553,"Osteophyte, left knee",36684563,Osteophyte of left knee,exactMatch,NA,NA,TRUE
+45757776,Abnormal urination,0.894654,,13153.8,44820068,Other abnormality of urination,45757776,Abnormal urination,exactMatch,NA,NA,TRUE
+-1,None,0.542617,,12439.8,44819551,"Other and unspecified alcohol dependence, episodic",435243,Alcohol dependence,exactMatch,435532,exactMatch,FALSE
+-1,None,0.72845,,18183.6,1570780,"Other calcification of muscle, lower leg",-1,Calcification of muscle,broadMatch,NA,NA,TRUE
+-1,None,0.596552,,18858.5,42491304,"Other chondrocalcinosis, lower leg",-1,Chondrocalcinosis,broadMatch,NA,NA,TRUE
+40479260,Chondrocalcinosis of knee joint,0.963142,best_match: the state was cut to 2048 prompt tokens,16690.5,45577143,"Other chondrocalcinosis, unspecified knee",40479260,Chondrocalcinosis of knee joint,exactMatch,NA,NA,TRUE
+137077,Chronic osteomyelitis of ankle and/or foot,0.403062,,17208,37225373,"Other chronic haematogenous osteomyelitis, ankle and foot",137077,Chronic osteomyelitis of ankle and/or foot,exactMatch,NA,NA,TRUE
+40483560,Combined immunodeficiency disease,0.916044,best_match: the state was cut to 2048 prompt tokens,19732.1,1567883,Other combined immunodeficiencies,40483560,Combined immunodeficiency disease,exactMatch,NA,NA,TRUE
+-1,None,0.598664,best_match: the state was cut to 2048 prompt tokens,17427.6,1102778,Other congenital malformations of aortic and mitral valves,-1,Congenital anomaly of heart valve,broadMatch,NA,NA,TRUE
+4130372,Congenital anomaly of intestinal tract,0.842706,,16386,37093264,Other congenital malformations of intestine,4130372,Congenital anomaly of intestinal tract,exactMatch,NA,NA,TRUE
+442781,Disorder of uterine cervix,0.434725,,16785.7,44833743,"Other congenital or acquired abnormality of cervix, delivered, with or without mention of antepartum condition",-1,Disorder of uterine cervix,broadMatch,NA,NA,FALSE
+-1,None,0.491619,,13319.9,45755405,Other degenerative disorders of nervous system in diseases classified elsewhere,4213310,Degenerative disease of the central nervous system,exactMatch,NA,NA,FALSE
+4103650,Disorder of Bartholin's gland,0.868484,,16686,37607152,Other diseases of Bartholin gland,4103650,Disorder of Bartholin's gland,exactMatch,NA,NA,TRUE
+4201745,Disorder of digestive system,0.901214,,12428.5,42490022,Other diseases of digestive system,4201745,Disorder of digestive system,exactMatch,NA,NA,TRUE
+192963,Disorder of pancreas,0.83777,,16973.1,42489995,Other diseases of pancreas,192963,Disorder of pancreas,exactMatch,NA,NA,TRUE
+-1,None,0.752314,,15262.5,45577672,"Other diseases of the blood and blood-forming organs and certain disorders involving the immune mechanism complicating pregnancy, second trimester",-1,Complication occurring during pregnancy,broadMatch,NA,NA,TRUE
+-1,None,0.78105,,14119.7,42494188,"Other disorders of bone development and growth, ankle and foot",-1,Disorder of free lower limb,broadMatch,NA,NA,TRUE
+-1,None,0.544277,,15728.7,37224191,"Other dorsalgia, occipito-atlanto-axial region",-1,Pain in cervical spine,broadMatch,NA,NA,TRUE
+42596408,Thoracolumbar back pain,0.81548,,14830.2,42617901,"Other dorsalgia, thoracolumbar region",42596408,Thoracolumbar back pain,exactMatch,NA,NA,TRUE
+-1,None,0.497026,,17531.3,45548837,Other embolism in childbirth,-1,Embolism,broadMatch,NA,NA,TRUE
+4179319,Scoliosis of cervical spine,0.441582,,15535.4,42617412,"Other forms of scoliosis, occipito-atlanto-axial region",-1,Scoliosis of cervical spine,broadMatch,NA,NA,FALSE
+375527,Headache disorder,0.510029,,13204.2,42487129,Other headache syndromes,375527,Headache disorder,exactMatch,NA,NA,TRUE
+434920,Hypochondriasis,0.88398,,13623.9,45600749,Other hypochondriacal disorders,434920,Hypochondriasis,exactMatch,NA,NA,TRUE
+-1,None,0.781667,,14807.6,37088295,"Other idiopathic scoliosis, sacral and sacrococcygeal region",-1,Disorder of sacrum,broadMatch,NA,NA,TRUE
+4347179,Infection of tendon sheath,0.715932,,16317.8,1570851,Other infective (teno)synovitis,-1,Tenosynovitis,broadMatch,NA,NA,FALSE
+-1,None,0.731752,,16294.6,45557973,"Other infective bursitis, left wrist",-1,Bursitis of wrist,broadMatch,NA,NA,TRUE
+-1,None,0.463391,,16033.8,1569434,Other intraoperative cardiac functional disturbances,-1,Cardiac complication of procedure,broadMatch,NA,NA,TRUE
+-1,None,0.457677,best_match: the state was cut to 2048 prompt tokens,20556.5,1102913,Other malignant immunoproliferative diseases not having achieved remission,4003834,Malignant immunoproliferative disease (clinical),exactMatch,NA,NA,FALSE
+77066,Derangement of medial meniscus,0.972569,,16279.4,45755524,"Other meniscus derangements, Medial collateral ligament or Other and unspecified medial meniscus",-1,Derangement of medial meniscus,broadMatch,NA,NA,FALSE
+432373,Continuing pregnancy after intrauterine death of one or more fetuses,0.591535,,19712.1,44834899,"Other multiple pregnancy with fetal loss and retention of one or more fetus(es), delivered, with or without mention of antepartum condition",-1,Retained fetal tissue,broadMatch,NA,NA,FALSE
+43531046,Disorder of nerve root and/or plexus,0.912957,,16806.9,42487203,Other nerve root and plexus disorders,43531046,Disorder of nerve root and/or plexus,exactMatch,NA,NA,TRUE
+195603,Vulval and/or perineal noninflammatory disorders,0.907842,,14689.1,45601756,Other noninflammatory disorders of vulva and perineum,195603,Vulval and/or perineal noninflammatory disorders,exactMatch,NA,NA,TRUE
+-1,None,0.57681,,14546.5,1570785,"Other ossification of muscle, forearm",-1,Muscular ossification,broadMatch,NA,NA,TRUE
+134137,Osteomyelitis of multiple sites,0.961958,,14721.1,42619005,"Other osteomyelitis, multiple sites",134137,Osteomyelitis of multiple sites,exactMatch,NA,NA,TRUE
+40480160,Osteoporotic fracture,0.678957,,16448.5,37224955,"Other osteoporosis with pathological fracture, other",40480160,Osteoporotic fracture,exactMatch,NA,NA,TRUE
+313543,Venous complication of pregnancy and/or puerperium,0.52275,best_match: the state was cut to 2048 prompt tokens,18890.6,44827989,"Other phlebitis and thrombosis complicating pregnancy and the puerperium, delivered, with mention of postpartum complication",-1,Finding related to pregnancy,broadMatch,NA,NA,FALSE
+4053583,Disorder of placenta,0.469282,,15340.6,45558312,"Other placental disorders, third trimester",-1,Disorder of placenta,broadMatch,NA,NA,FALSE
+-1,None,0.563771,,15838.7,45552460,"Other psychoactive substance abuse with intoxication, unspecified",607217,Psychoactive substance-induced intoxication,exactMatch,NA,NA,FALSE
+1244729,Reactive arthritis of joint of wrist region,0.877206,,13772.8,45553035,"Other reactive arthropathies, unspecified wrist",1244729,Reactive arthritis of joint of wrist region,exactMatch,NA,NA,TRUE
+-1,None,0.669493,,17245.2,42492193,"Other recurrent vertebral subluxation, occipito-atlanto-axial region",-1,Subluxation of joint of cervical spine,broadMatch,NA,NA,TRUE
+37161510,Neonatal respiratory distress,0.561466,best_match: the state was cut to 2048 prompt tokens,16213.8,42495796,Other respiratory distress of newborn,258866,Respiratory distress syndrome in the newborn,exactMatch,37161510,exactMatch,TRUE
+-1,None,0.343225,,14023.2,42492095,"Other secondary scoliosis, site unspecified",4006163,Acquired scoliosis,exactMatch,NA,NA,FALSE
+-1,None,0.728391,,14638,37223503,"Other specific joint derangements, not elsewhere classified, forearm",-1,Joint derangement,broadMatch,NA,NA,TRUE
+312723,Congenital heart disease,0.918469,,16138.5,42496228,Other specified congenital malformations of heart,312723,Congenital heart disease,exactMatch,NA,NA,TRUE
+4183247,Deformity of thoracic spine,0.686006,,16241,37088465,"Other specified deforming dorsopathies, thoracic region",4183247,Deformity of thoracic spine,exactMatch,NA,NA,TRUE
+321822,Peripheral vascular disorder due to diabetes mellitus,0.730785,best_match: the state was cut to 2048 prompt tokens,17267.3,37082127,Other specified diabetes mellitus: With peripheral vascular complications: Not reported as derailed,321822,Peripheral vascular disorder due to diabetes mellitus,exactMatch,NA,NA,TRUE
+4201745,Disorder of digestive system,0.891799,,11587.3,35208415,Other specified diseases of the digestive system,4201745,Disorder of digestive system,exactMatch,NA,NA,TRUE
+432620,Disorder of choroid of eye,0.928829,,15139.9,35207549,Other specified disorders of choroid,432620,Disorder of choroid of eye,exactMatch,NA,NA,TRUE
+201603,Disorder of teeth AND/OR supporting structures,0.810205,,13777.2,42489446,Other specified disorders of teeth and supporting structures,201603,Disorder of teeth AND/OR supporting structures,exactMatch,NA,NA,TRUE
+4086745,General effects of low temperature,0.747688,,12596.6,42500894,Other specified effects of reduced temperature,4086745,General effects of low temperature,exactMatch,37111520,exactMatch,TRUE
+196151,Functional disorder of intestine,0.929345,,14966.1,42489776,Other specified functional intestinal disorders,196151,Functional disorder of intestine,exactMatch,NA,NA,TRUE
+-1,None,0.509565,,14961.2,37223342,Other specified limb deformities - Multiple sites (machine translation),-1,Acquired deformity of limb,broadMatch,NA,NA,TRUE
+4247348,Primary malignant neoplasm of skin of breast,0.73596,,18208.2,45566588,Other specified malignant neoplasm of skin of breast,4247348,Primary malignant neoplasm of skin of breast,exactMatch,NA,NA,TRUE
+4330878,Papulosquamous dermatosis,0.8876,,12695.3,42490238,Other specified papulosquamous disorders,4330878,Papulosquamous dermatosis,exactMatch,NA,NA,TRUE
+46272989,Failed procedure using minimal access approach converted to open procedure,0.410175,,12026.6,37202299,Other specified procedure converted to open procedure,46272989,Failed procedure using minimal access approach converted to open procedure,exactMatch,NA,NA,TRUE
+-1,None,0.506199,,16436.8,37402467,"Other stimulant use, unspecified, in remission",37164332,Nondependent psychostimulant abuse in remission,exactMatch,NA,NA,FALSE
+-1,None,0.799399,,15797.3,1569905,"Other streptococcal arthritis, hip",-1,Bacterial arthritis of hip,broadMatch,NA,NA,TRUE
+74174,Urinary symptoms,0.892014,,11979.2,44830450,Other symptoms involving urinary system,4024000,Urinary system finding,exactMatch,74174,exactMatch,TRUE
+75865,Disorder of urinary system,0.272044,,13491.6,44830798,Other urinary problems,4024000,Urinary system finding,exactMatch,75865,exactMatch,TRUE
+-1,None,0.573336,best_match: the state was cut to 2048 prompt tokens,19645.4,45556926,Other varicella complications,437791,Chickenpox with complication,exactMatch,NA,NA,FALSE
+-1,None,0.460342,,17760,42617884,"Panniculitis affecting regions of neck and back, sacral and sacrococcygeal region",-1,Panniculitis affecting sacrum,broadMatch,NA,NA,TRUE
+4330878,Papulosquamous dermatosis,0.862482,,13612.6,42490240,Papulosquamous disorders in diseases classified elsewhere,4330878,Papulosquamous dermatosis,exactMatch,NA,NA,TRUE
+4181798,Partial obstruction of small bowel,0.871957,,13419,35738840,Partial small intestinal obstruction,4181798,Partial obstruction of small bowel,exactMatch,NA,NA,TRUE
+760661,Pathological fracture of right radius due to neoplasm,0.586774,,18063.8,45567717,"Pathological fracture in neoplastic disease, right radius, subsequent encounter for fracture with delayed healing",760661,Pathological fracture of right radius due to neoplasm,exactMatch,NA,NA,TRUE
+-1,None,0.554396,,16177.7,45606390,"Pathological fracture in other disease, right ulna, subsequent encounter for fracture with delayed healing",-1,Pathological fracture of ulna,broadMatch,NA,NA,TRUE
+760649,Pathological fracture of left ankle,0.985888,,14018.5,9946,"Pathological fracture, left ankle",760649,Pathological fracture of left ankle,exactMatch,NA,NA,TRUE
+-1,None,0.506385,,14274.1,45582279,"Pathological fracture, left shoulder, subsequent encounter for fracture with nonunion",-1,Nonunion of fracture,broadMatch,NA,NA,TRUE
+760640,Pathological fracture of right femur,0.520107,,14941.6,45577400,"Pathological fracture, right femur, subsequent encounter for fracture with delayed healing",-1,Delayed union of fracture,broadMatch,NA,NA,FALSE
+1076080,Juvenile idiopathic arthritis of elbow,0.764228,,16192.4,45557771,"Pauciarticular juvenile rheumatoid arthritis, unspecified elbow",1076080,Juvenile idiopathic arthritis of elbow,exactMatch,-1,broadMatch,TRUE
+-1,None,0.695385,,15445.8,10446,"Penetrating wound of orbit with or without foreign body, unspecified eye",4334734,Penetrating wound of orbit,exactMatch,NA,NA,FALSE
+-1,None,0.582944,,14581.3,44834882,"Peripheral neuritis in pregnancy, postpartum condition or complication",4062566,Peripheral neuritis in pregnancy with postnatal complication,exactMatch,NA,NA,FALSE
+443796,Infectious peritonitis,0.658388,,14698.6,35708029,Peritoneal infection,443796,Infectious peritonitis,exactMatch,NA,NA,TRUE
+-1,None,0.641797,,14676.3,44833445,"Persistent migraine aura with cerebral infarction, with intractable migraine, so stated, with status migrainosus",-1,Status migrainosus,broadMatch,NA,NA,TRUE
+-1,None,0.453767,,13834.7,42486701,"Persistent mood[affective] disorder, unspe- cified",444100,Mood disorder,exactMatch,NA,NA,FALSE
+4240903,Allergy to penicillin,0.773258,best_match: the state was cut to 2048 prompt tokens,24659.8,45561667,Personal history of allergy to penicillin,4240903,Allergy to penicillin,exactMatch,NA,NA,TRUE
+437839,Pica,0.536213,best_match: the state was cut to 2048 prompt tokens,26692.7,1102671,Pica in adults,437839,Pica,exactMatch,NA,NA,TRUE
+44782710,Dementia due to Pick's disease,0.909187,,15155.3,1411507,Pick's disease dementia (machine translation),44782710,Dementia due to Pick's disease,exactMatch,NA,NA,TRUE
+4165681,Pilonidal cyst,0.605407,,17971.4,37611822,Pilonidal cyst without abscess,4165681,Pilonidal cyst,exactMatch,NA,NA,TRUE
+4265209,Abscess of pituitary,0.966286,,14482.4,1409378,Pituitary abscess (machine translation),4265209,Abscess of pituitary,exactMatch,NA,NA,TRUE
+-1,None,0.483092,,18153.9,1402682,Plasma cell sarcoma (machine translation),4216139,Plasmacytoma,exactMatch,-1,broadMatch,TRUE
+-1,None,0.703685,best_match: the state was cut to 2048 prompt tokens,16434.6,1405016,Plasmodium malariae malaria with other complications,-1,Quartan malaria,broadMatch,NA,NA,TRUE
+438353,Quartan malaria,0.724555,best_match: the state was cut to 2048 prompt tokens,20310.3,42484445,Plasmodium malariae malaria without complication,438353,Quartan malaria,exactMatch,NA,NA,TRUE
+433960,Vivax malaria,0.961657,best_match: the state was cut to 2048 prompt tokens,22645.8,37089588,Plasmodium vivax malaria,433960,Vivax malaria,exactMatch,NA,NA,TRUE
+4049971,Asbestos-induced pleural plaque,0.925886,,14749,45567277,Pleural plaque with presence of asbestos,4049971,Asbestos-induced pleural plaque,exactMatch,NA,NA,TRUE
+606763,Intentional amphetamine and/or amphetamine derivative poisoning,0.945063,,17073.2,45555996,"Poisoning by amphetamines, intentional self-harm, initial encounter",606763,Intentional amphetamine and/or amphetamine derivative poisoning,exactMatch,NA,NA,TRUE
+608027,Poisoning caused by gaseous substance,0.882521,,16112.4,44829563,"Poisoning by other gases, undetermined whether accidentally or purposely inflicted",40493247,Poisoning by fumes,exactMatch,608027,exactMatch,TRUE
+432454,Excessive thirst,0.471624,,15770.6,45563320,Polydipsia,432454,Excessive thirst,exactMatch,NA,NA,TRUE
+1244154,Postpartum mood disorder,0.682655,,16145.5,45606661,Postpartum mood disturbance,1244154,Postpartum mood disorder,exactMatch,NA,NA,TRUE
+-1,None,0.52898,,15360.7,1567879,Postprocedural hemorrhage of the spleen following a procedure,-1,Splenic hemorrhage,broadMatch,NA,NA,TRUE
+4209458,Poverty of thought,0.83551,,12848.3,36919008,Poverty of thought content,4209458,Poverty of thought,exactMatch,NA,NA,TRUE
+-1,None,0.730986,,17905.4,1424182,Pregnant women with hyperlipidemia (machine translation),-1,"Endocrine, nutritional and metabolic disease complicating pregnancy, childbirth and puerperium",broadMatch,NA,NA,TRUE
+-1,None,0.692364,best_match: the state was cut to 2048 prompt tokens,16801,1423175,Pregnant women with pelvic inflammatory disease (machine translation),-1,Infections of the genital tract in pregnancy,broadMatch,NA,NA,TRUE
+37170748,Pressure injury of hip stage I,0.975277,,17372.9,45533656,"Pressure ulcer of unspecified hip, stage 1",37170748,Pressure injury of hip stage I,exactMatch,NA,NA,TRUE
+4261934,Progesterone receptor negative neoplasm,0.877882,best_match: the state was cut to 2048 prompt tokens,20484.6,1102832,Progesterone receptor negative status,4261934,Progesterone receptor negative neoplasm,exactMatch,NA,NA,TRUE
+4219694,Progesterone receptor positive tumor,0.850003,best_match: the state was cut to 2048 prompt tokens,21516.3,1102831,Progesterone receptor positive status,4219694,Progesterone receptor positive tumor,exactMatch,NA,NA,TRUE
+4102337,Exacerbation of multiple sclerosis,0.365975,,12003.7,36774769,Progression of multiple sclerosis,37311816,Progressive multiple sclerosis,exactMatch,NA,NA,FALSE
+36715504,Protozoal disease complicating pregnancy childbirth and the puerperium,0.870832,,15011.2,45563192,"Protozoal diseases complicating pregnancy, unspecified trimester",36715504,Protozoal disease complicating pregnancy childbirth and the puerperium,exactMatch,-1,broadMatch,TRUE
+377564,Pseudopterygium,0.952748,,15092.9,1412542,Pseudo-pterygium (machine translation),377564,Pseudopterygium,exactMatch,NA,NA,TRUE
+606336,Psychomotor retardation,0.317002,,17367.9,44825829,Psychomotor deficit,4220292,Impaired psychomotor performance,exactMatch,42535018,exactMatch,FALSE
+-1,None,0.513214,,17117.8,37320084,Punctate keratosis,-1,Punctate palmoplantar keratoderma,broadMatch,NA,NA,TRUE
+81099,Pyogenic arthritis of shoulder region,0.426015,,13447.4,42616346,"Pyogenic arthritis, unspecified, Upper arm",-1,Disorder of upper arm,broadMatch,NA,NA,FALSE
+4152371,Stress and adjustment reaction,0.617716,,13829.5,45557206,"Reaction to severe stress, and adjustment disorders",4152371,Stress and adjustment reaction,exactMatch,NA,NA,TRUE
+4213865,Rectal fistula,0.591095,,12263.3,1102708,"Rectal fistula, simple",4213865,Rectal fistula,exactMatch,-1,broadMatch,TRUE
+4213865,Rectal fistula,0.591095,,13061.5,1102712,"Rectal fistula, simple, unspecified",4213865,Rectal fistula,exactMatch,-1,broadMatch,TRUE
+-1,None,0.729951,best_match: the state was cut to 2048 prompt tokens,22410.4,37225820,"Recurrent and persistent haematuria, other",-1,Hematuria syndrome,broadMatch,NA,NA,TRUE
+37017452,Drug resistance to antibacterial agent,0.637207,best_match: the state was cut to 2048 prompt tokens,16879.7,42501284,Resistance to other single specified antibiotic,37017452,Drug resistance to antibacterial agent,exactMatch,NA,NA,TRUE
+317376,Tachypnea,0.882522,best_match: the state was cut to 2048 prompt tokens,18629.5,36315364,Respiratory rate increased,317376,Tachypnea,exactMatch,NA,NA,TRUE
+-1,None,0.773917,,15975.3,37224790,"Rheumatism, unspecified, forearm",-1,Disorder of forearm,broadMatch,NA,NA,TRUE
+4200987,Extra-articular rheumatoid process,0.448446,,15293.6,42490762,Rheumatoid arthritis with involvement of other organs and systems,-1,Rheumatoid arthritis,broadMatch,NA,NA,FALSE
+-1,None,0.750232,,13273.1,37087035,"Rheumatoid bursitis, other",-1,Bursitis,broadMatch,NA,NA,TRUE
+-1,None,0.567231,,16089.7,45548255,Rheumatoid heart disease with rheumatoid arthritis of unspecified hip,-1,Rheumatoid arthritis of hip,broadMatch,NA,NA,TRUE
+-1,None,0.467855,,15661.7,45606040,Rheumatoid lung disease with rheumatoid arthritis of unspecified ankle and foot,-1,Rheumatoid lung disease,broadMatch,NA,NA,TRUE
+-1,None,0.694038,,17864.5,45567408,Rheumatoid vasculitis with rheumatoid arthritis of left knee,-1,Rheumatoid vasculitis,broadMatch,NA,NA,TRUE
+197107,Abdominal rigidity of right lower quadrant,0.980351,,12249.8,45568118,Right lower quadrant abdominal rigidity,197107,Abdominal rigidity of right lower quadrant,exactMatch,NA,NA,TRUE
+37209658,Pregnancy of right fallopian tube,0.883876,,15209.8,1326728,Right tubal pregnancy without intrauterine pregnancy,37209658,Pregnancy of right fallopian tube,exactMatch,NA,NA,TRUE
+-1,None,0.517454,best_match: the state was cut to 2048 prompt tokens,29988,1420635,Rotator cuff syndrome,4212887,Disorder of rotator cuff,exactMatch,-1,broadMatch,TRUE
+4273323,Rubella,0.740134,,13603.4,37085900,Rubella without complication,4273323,Rubella,exactMatch,NA,NA,TRUE
+36716719,Adult rumination syndrome of ingested food,0.68717,best_match: the state was cut to 2048 prompt tokens,17280.3,1102672,Rumination disorder in adults,36716719,Adult rumination syndrome of ingested food,exactMatch,NA,NA,TRUE
+4098902,Spinal meningioma,0.512088,,15154,1407758,Sacral meningioma (machine translation),-1,Benign neoplasm of spinal meninges,broadMatch,NA,NA,FALSE
+-1,None,0.51816,,15740.7,42617855,"Sacrococcygeal disorders, not elsewhere classified, sacral and sacrococcygeal region",-1,Disorder of sacrum,broadMatch,NA,NA,TRUE
+-1,None,0.518435,,13845.4,725283,"Sedative, hypnotic or anxiolytic abuse with withdrawal",-1,"Sedative, hypnotic AND/OR anxiolytic intoxication delirium",broadMatch,NA,NA,TRUE
+-1,None,0.439202,,14827.4,45595866,"Sedative, hypnotic or anxiolytic dependence with sedative, hypnotic or anxiolytic-induced mood disorder",4103853,"Sedative, hypnotic AND/OR anxiolytic-induced mood disorder",exactMatch,NA,NA,FALSE
+4028685,Sensitive dentin,0.965453,,15921.6,42489309,Sensitive dentine,4028685,Sensitive dentin,exactMatch,NA,NA,TRUE
+4054807,Late effects of assault,0.941576,,14950.5,42505140,Sequelae of assault,4054807,Late effects of assault,exactMatch,NA,NA,TRUE
+1244750,Seronegative rheumatoid arthritis of joint of shoulder region,0.950474,best_match: the state was cut to 2048 prompt tokens,21177.5,42490880,"Seronegative rheumatoid arthritis, shoulder region",1244750,Seronegative rheumatoid arthritis of joint of shoulder region,exactMatch,NA,NA,TRUE
+37208506,Bicarbonate substance concentration in serum,0.25456,best_match: the state was cut to 2048 prompt tokens,22693.9,45465331,Serum bicarbonate,4150494,Serum bicarbonate measurement,exactMatch,NA,NA,FALSE
+37208600,Cystatin C mass concentration in serum,0.520538,,17571.7,45422081,Serum cystatin C level,37208600,Cystatin C mass concentration in serum,exactMatch,4248803,exactMatch,TRUE
+4154637,Serum parathyroid hormone measurement,0.436275,,17217.5,45465320,Serum parathyroid hormone,4154637,Serum parathyroid hormone measurement,exactMatch,NA,NA,TRUE
+35623653,Sexual relationship problem,0.491708,,11990.1,1411019,Sexual relationship disorder,35623653,Sexual relationship problem,exactMatch,NA,NA,TRUE
+-1,None,0.647312,best_match: the state was cut to 2048 prompt tokens,21751,1102880,"Sezary disease, in remission",-1,Sezary's disease,broadMatch,NA,NA,TRUE
+4119130,Malignant lymphoma - small lymphocytic,0.757906,best_match: the state was cut to 2048 prompt tokens,22568.1,35124545,Small cell lymphocytic lymphoma,4119130,Malignant lymphoma - small lymphocytic,exactMatch,NA,NA,TRUE
+36684579,Solitary bone cyst of left humerus,0.987807,,15243.3,45601626,"Solitary bone cyst, left humerus",36684579,Solitary bone cyst of left humerus,exactMatch,NA,NA,TRUE
+4152592,Spinal stenosis of lumbosacral region,0.927814,best_match: the state was cut to 2048 prompt tokens,17010.3,42617680,"Spinal stenosis, lumbosacral region",4152592,Spinal stenosis of lumbosacral region,exactMatch,NA,NA,TRUE
+37207722,Disorder of joint of lumbosacral vertebra,0.354842,best_match: the state was cut to 2048 prompt tokens,17323,42492510,"Spondylopathy in other infectious and parasitic diseases classified elsewhere, lumbosacral region",-1,Disorder of joint of lumbosacral vertebra,broadMatch,NA,NA,FALSE
+-1,None,0.741137,,16986.7,1569886,"Staphylococcal arthritis, elbow",-1,Arthritis of right elbow caused by Staphylococcus,broadMatch,NA,NA,TRUE
+-1,None,0.634968,,12756.9,45606350,"Stress fracture, unspecified shoulder, subsequent encounter for fracture with delayed healing",-1,Fracture of shoulder,broadMatch,NA,NA,TRUE
+-1,None,0.552489,,15631.1,35209386,Subacute and chronic vulvitis,-1,Chronic vulvitis,broadMatch,-1,broadMatch,TRUE
+140099,Subacute combined degeneration of spinal cord,0.886514,best_match: the state was cut to 2048 prompt tokens,19710.9,35104073,Subacute combined cord degeneration,140099,Subacute combined degeneration of spinal cord,exactMatch,NA,NA,TRUE
+-1,None,0.711372,,14626.9,42618963,"Subacute osteomyelitis, ankle and foot",-1,Subacute osteomyelitis,broadMatch,NA,NA,TRUE
+-1,None,0.558637,,14838.3,45582380,Subluxation complex (vertebral) of abdomen and other regions,-1,Subluxation complex (vertebral),broadMatch,4068848,exactMatch,TRUE
+4146460,Superficial thrombophlebitis in pregnancy,0.84104,best_match: the state was cut to 2048 prompt tokens,17364.3,44834936,"Superficial thrombophlebitis complicating pregnancy and the puerperium, delivered, with or without mention of antepartum condition",-1,Postpartum finding,broadMatch,NA,NA,FALSE
+4061424,Antenatal care: primigravida,0.698955,,13929.3,37614022,Supervision of normal first pregnancy,-1,Antenatal care: primigravida,broadMatch,NA,NA,FALSE
+4123283,Disorder of stoma,0.381979,,14119,42505118,"Surgical operation with formation of external stoma as the cause of abnormal reaction of the patient, or of later complication, without mention of misadventure at the time of the procedure",-1,Disorder of stoma,broadMatch,NA,NA,FALSE
+4057464,Synovial fluid examination,0.767731,best_match: the state was cut to 2048 prompt tokens,20237.9,45488815,Synovial fluid exam. NOS,4057464,Synovial fluid examination,exactMatch,NA,NA,TRUE
+-1,None,0.62937,,17472.8,42618386,"Syphilitic bursitis, pelvic region and thigh",-1,Syphilitic bursitis,broadMatch,NA,NA,TRUE
+44784134,Non-infectious systemic inflammatory response syndrome,0.856945,,17282.7,1572266,Systemic inflammatory response syndrome (SIRS) of non-infectious origin,44784134,Non-infectious systemic inflammatory response syndrome,exactMatch,NA,NA,TRUE
+-1,None,0.683082,best_match: the state was cut to 2048 prompt tokens,19993,35205805,Tinea barbae and tinea capitis,-1,Dermatophytosis,broadMatch,NA,NA,TRUE
+4066471,Allergic contact dermatitis caused by adhesive,0.666827,,13982.2,45887097,Topical adhesive allergy,4303675,Allergic reaction to adhesive,exactMatch,NA,NA,FALSE
+4043611,Total count of motile spermatozoa,0.320438,best_match: the state was cut to 2048 prompt tokens,21102,45448546,Total count of motile sperm,4043611,Total count of motile spermatozoa,exactMatch,NA,NA,TRUE
+40483089,Poisoning by phenolic,0.396438,,12593.8,42500798,Toxic effects of phenol and phenol homologues,4187822,Poisoning by phenol,exactMatch,40483089,exactMatch,TRUE
+4065626,Toxic reaction to local anesthetic during labor and delivery,0.943608,,17485.9,42495520,Toxic reaction to local anaesthesia during labour and delivery,4065626,Toxic reaction to local anesthetic during labor and delivery,exactMatch,NA,NA,TRUE
+37170255,Neonatal transient metabolic disturbance,0.356979,,15803.5,35210614,"Transitory disorder of carbohydrate metabolism of newborn, unspecified",-1,Disorder of fetus and/or newborn,broadMatch,NA,NA,FALSE
+4210297,Neonatal transient hyperthyroidism,0.913569,,18693.2,1425002,Transitory neonatal hyperthyroidism,4210297,Neonatal transient hyperthyroidism,exactMatch,NA,NA,TRUE
+4006587,Trisomy 18 - mitotic nondisjunction mosaicism,0.837897,best_match: the state was cut to 2048 prompt tokens,18926.2,45592398,"Trisomy 18, mosaicism (mitotic nondisjunction)",4006587,Trisomy 18 - mitotic nondisjunction mosaicism,exactMatch,NA,NA,TRUE
+257775,Tuberculous bronchiectasis,0.952417,,13681.9,1403158,"Tuberculosis, bronchiectasis, pathology () (machine translation)",257775,Tuberculous bronchiectasis,exactMatch,NA,NA,TRUE
+-1,None,0.543981,,15272.2,1403401,Tuberculous hydronephrosis (machine translation),-1,Tuberculosis of genitourinary system,broadMatch,NA,NA,TRUE
+-1,None,0.655412,,14365,45601799,"Twin pregnancy, unable to determine number of placenta and number of amniotic sacs, third trimester",-1,Twin pregnancy,broadMatch,NA,NA,TRUE
+4015162,Twins - both stillborn,0.950789,,11759.9,1434620,"Twins, both stillborn",4015162,Twins - both stillborn,exactMatch,NA,NA,TRUE
+4143857,Lumbosacral radiculoplexus neuropathy due to type 1 diabetes mellitus,0.934695,best_match: the state was cut to 2048 prompt tokens,21111.3,45561948,Type 1 diabetes mellitus with diabetic amyotrophy,4143857,Lumbosacral radiculoplexus neuropathy due to type 1 diabetes mellitus,exactMatch,NA,NA,TRUE
+37017431,Polyneuropathy due to type 1 diabetes mellitus,0.938221,best_match: the state was cut to 2048 prompt tokens,20529.1,45595795,Type 1 diabetes mellitus with diabetic polyneuropathy,37017431,Polyneuropathy due to type 1 diabetes mellitus,exactMatch,NA,NA,TRUE
+200687,Renal disorder due to type 1 diabetes mellitus,0.777058,best_match: the state was cut to 2048 prompt tokens,18692.5,45600637,Type 1 diabetes mellitus with other diabetic kidney complication,200687,Renal disorder due to type 1 diabetes mellitus,exactMatch,NA,NA,TRUE
+1244603,Presymptomatic type 1 diabetes mellitus,0.567945,best_match: the state was cut to 2048 prompt tokens,15922.2,1102629,"Type 1 diabetes mellitus, presymptomatic, Stage 1",37174264,Presymptomatic type 1 diabetes mellitus,exactMatch,NA,NA,FALSE
+1244603,Presymptomatic type 1 diabetes mellitus,0.64169,best_match: the state was cut to 2048 prompt tokens,17293.7,1102630,"Type 1 diabetes mellitus, presymptomatic, Stage 2",37174265,Presymptomatic type 1 diabetes mellitus,exactMatch,NA,NA,FALSE
+43530685,Proliferative retinopathy due to type 2 diabetes mellitus,0.948986,best_match: the state was cut to 2048 prompt tokens,23099.8,37200223,"Type 2 diabetes mellitus with proliferative diabetic retinopathy with macular edema, left eye",-1,Proliferative retinopathy due to type 2 diabetes mellitus,broadMatch,NA,NA,FALSE
+376065,Disorder of nervous system due to type 2 diabetes mellitus,0.893753,best_match: the state was cut to 2048 prompt tokens,19680.1,37614126,"Type 2 diabetes mellitus, with neurological complications",376065,Disorder of nervous system due to type 2 diabetes mellitus,exactMatch,NA,NA,TRUE
+443729,Peripheral circulatory disorder due to type 2 diabetes mellitus,0.865903,best_match: the state was cut to 2048 prompt tokens,19138.1,1409178,"Type 2 diabetes mellitus, with peripheral circulatory complications",443729,Peripheral circulatory disorder due to type 2 diabetes mellitus,exactMatch,NA,NA,TRUE
+438259,Umbilical hemorrhage after birth,0.611609,best_match: the state was cut to 2048 prompt tokens,21101.7,1572015,Umbilical hemorrhage of newborn,438259,Umbilical hemorrhage after birth,exactMatch,NA,NA,TRUE
+4306501,Undifferentiated carcinoma of nasopharynx,0.777875,best_match: the state was cut to 2048 prompt tokens,19394.6,43054093,Undifferentiated nasopharyngeal carcinoma,4306501,Undifferentiated carcinoma of nasopharynx,exactMatch,NA,NA,TRUE
+4013540,RhD negative,0.943797,,12969.5,45609959,"Unspecified blood type, Rh negative",4013540,RhD negative,exactMatch,NA,NA,TRUE
+-1,None,0.541178,,12446.3,37402457,"Unspecified dementia, severe, with anxiety",-1,Anxiety,broadMatch,NA,NA,TRUE
+4194889,Enthesopathy of lower limb,0.514653,,13217.9,8690,"Unspecified enthesopathy, lower limb, excluding foot",4116324,Enthesopathy of lower leg and ankle region,exactMatch,-1,broadMatch,FALSE
+4137945,Fracture of scaphoid bone of wrist,0.939953,best_match: the state was cut to 2048 prompt tokens,16820.6,1573395,Unspecified fracture of navicular [scaphoid] bone of wrist,4137945,Fracture of scaphoid bone of wrist,exactMatch,NA,NA,TRUE
+760895,Mass of left breast,0.956126,,12747.6,1326717,"Unspecified lump in the left breast, unspecified quadrant",760895,Mass of left breast,exactMatch,NA,NA,TRUE
+40480160,Osteoporotic fracture,0.678957,,14591.4,37224965,"Unspecified osteoporosis with pathological fracture, other",40480160,Osteoporotic fracture,exactMatch,NA,NA,TRUE
+4093228,Disorder of soft tissue of lower limb,0.42108,,13973.1,1570979,"Unspecified soft tissue disorder related to use, overuse and pressure lower leg",-1,Disorder of soft tissue of lower limb,broadMatch,NA,NA,FALSE
+4118007,Synovitis/tenosynovitis - shoulder,0.880045,,15277.1,1102746,"Unspecified synovitis and tenosynovitis, shoulder",4118007,Synovitis/tenosynovitis - shoulder,exactMatch,NA,NA,TRUE
+-1,None,0.546075,,13958.8,35205669,Urban rabies,-1,Rabies,broadMatch,NA,NA,TRUE
+4064933,Urine screening,0.899146,,10818.7,45515541,Urine screen due,4064384,Urine screening due,exactMatch,NA,NA,FALSE
+193261,Vaginospasm,0.707039,,12483.1,45543904,Vaginismus,193261,Vaginospasm,exactMatch,NA,NA,TRUE
+4133824,Varus deformity,0.48923,,15178,42491566,"Varus deformity, NEC, multiple sites",-1,Acquired varus deformity of limb,broadMatch,NA,NA,FALSE
+-1,None,0.471138,best_match: the state was cut to 2048 prompt tokens,18063.3,1102905,Waldenstrom macroglobulinemia not having achieved remission,4098597,Waldenstrom macroglobulinemia,exactMatch,NA,NA,FALSE
+434834,War injury due to rubber bullets,0.909444,,10925.9,45537526,"War operations involving rubber bullets, military personnel, initial encounter",434834,War injury due to rubber bullets,exactMatch,NA,NA,TRUE
+-1,None,0.564547,,13482.7,42483858,"Zoonotic bacterial disease, unspecified",-1,Bacterial infectious disease,broadMatch,NA,NA,TRUE
+432804,Fall from scaffold,0.789443,,10239.7,45431148,"[X]Fall on and from scaffolding, occurrence at unspecified place",432804,Fall from scaffold,exactMatch,NA,NA,TRUE
+432803,Fall from ladder,0.751929,,10462.7,45494505,[X]Fall on/from ladder,432803,Fall from ladder,exactMatch,NA,NA,TRUE
